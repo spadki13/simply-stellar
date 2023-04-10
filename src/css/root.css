@@ -4,11 +4,11 @@
 /* Mobile */
 @media only screen and (min-width: 0em) {
   :root {
-    --primary: #FFBA19;
+    --primary: #eec486;
     --primaryShade: #ffd675;
-    --primaryDark: #805d0d;
-    --bodyTextColor: #4E4B66;
-    --bodyTextColorWhite: #FAFBFC;
+    --primaryDark: #916b6b;
+    --bodyTextColor: #ac9f9f;
+    --bodyTextColorWhite: #f2f5f8;
     --headerColor: #1a1a1a;
     /* 13px - 16px */
     --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
@@ -19,19 +19,19 @@
   }
   /* roboto-regular - latin */
   @font-face {
-    font-family: 'Merriweather';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    src: local(''), url('/assets/fonts/Merriweather-Light.ttf') format('ttf'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('/assets/fonts/Merriweather-Light.ttf') format('ttf');
+    src: local(''), url('/assets/fonts/roboto-v29-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('/assets/fonts/roboto-v29-latin-regular.woff') format('woff');
     
     /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
   /* roboto-700 - latin */
   @font-face {
-    font-family: 'Merriweather';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    src: local(''), url('/assets/fonts/Merriweather-Regular.ttf') format('ttf'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('/assets/fonts/Merriweather-Regular.ttf') format('ttf');
+    src: local(''), url('/assets/fonts/roboto-v29-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('/assets/fonts/roboto-v29-latin-700.woff') format('woff');
     
     /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
@@ -39,8 +39,8 @@
   @font-face {
     font-family: 'Merriweather';
     font-style: normal;
-    font-weight: 900;
-    src: local(''), url('/assets/fonts/Merriweather-Bold.ttf') format('ttf'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('/assets/fonts/Merriweather-Bold.ttf') format('ttf');
+    font-weight: 500;
+    src: local(''), url('/assets/fonts/Merriweather.woff') format('woff'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('/assets/fonts/Merriweather.woff') format('woff');
     
     /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
