@@ -47,7 +47,7 @@
       font-family: 'Merriweather-Light';
       font-style: normal;
       font-weight: 500;
-      src: local(''), url('/assets/fonts/Merriweather-Light.woff') format('woff'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('/assets/fonts/Merriweather-Light.woff') format('woff');
+      src: local(''), url('/assets/fonts/MerriweatherLight.woff') format('woff'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('/assets/fonts/MerriweatherLight.woff') format('woff');
     
     /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
