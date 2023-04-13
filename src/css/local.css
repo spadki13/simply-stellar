@@ -665,7 +665,7 @@
     line-height: 1.20833333;
     color: #fff;
     position: relative;
-    margin-bottom: 2rem;
+    margin-bottom: 1.2rem;
     text-align: center;
   }
   #cta p {
@@ -682,7 +682,7 @@
 /* Small Desktop */
 @media only screen and (min-width: 64em) {
   #cta {
-    padding: 5.25rem 0;
+    padding: 4.25rem 0;
   }
 }
 /* Large Desktop */
