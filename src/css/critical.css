@@ -263,7 +263,7 @@
     background: #fff;
     width: 90%;
     max-width: 82.5em;
-    padding: 3.125em 1.25em;
+    padding: 2.125em 1em;
     border-top: 0.375em solid var(--primary);
     box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.05);
     margin-bottom: 3.125em;
@@ -280,8 +280,8 @@
   }
   .services .card picture {
     background: var(--primary);
-    width: 5.5em;
-    height: 5.5em;
+    width: 3.5em;
+    height: 3.5em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -290,8 +290,8 @@
     border-radius: 50%;
   }
   .services .card picture img {
-    width: 3em;
-    height: 3em;
+    width: 2em;
+    height: 2em;
   }
   .services .card h2 {
     text-align: center;
