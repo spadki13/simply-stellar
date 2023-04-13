@@ -650,7 +650,7 @@
 @media only screen and (min-width: 0em) {
   #footer {
     background: #161618;
-    padding: 10rem 0 1.25rem;
+    padding: 2rem 0 1.25rem;
     font-size: min(4vw, 1.2em);
   }
   #footer .left-section {
@@ -796,7 +796,7 @@
     padding: 0;
   }
   #footer .left-section {
-    width: 25.5625rem;
+    width: 50%;
     margin: 0;
     text-align: left;
   }
@@ -811,7 +811,7 @@
   }
   #footer .right-section {
     margin: 0;
-    width: 38.0625rem;
+    width: 50%;
     max-width: none;
   }
   #footer .right-section .lists {
