@@ -122,7 +122,7 @@
   }
   .button-solid {
     font-size: 1rem;
-    font-weight: bold;
+    font-weight: 500;
     text-transform: uppercase;
     text-decoration: none;
     display: inline-block;
