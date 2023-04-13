@@ -439,6 +439,8 @@
   #navigation .logo img {
     width: auto;
     height: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
   }
   #navigation #navbar-menu ul {
     padding: 0;
