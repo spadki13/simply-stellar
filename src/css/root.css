@@ -13,9 +13,9 @@
     /* 13px - 16px */
     --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
     /* 31px - 49px */
-    --headerFontSize: clamp(2rem, 4vw, 2.2rem);
+    --headerFontSize: clamp(1.6rem, 4vw, 2.2rem);
     /* 60px - 100px top and bottom */
-    --sectionPadding: clamp(3.75em, 7.82vw, 6.25em) 1rem;
+    --sectionPadding: clamp(3em, 6.5vw, 4em) 1rem;
   }
   /* roboto-regular - latin */
   @font-face {
@@ -102,7 +102,7 @@
     color: var(--headerColor);
   }
   h2 {
-    font-family: "Merriweather-Sans-Light";
+    font-family: "Merriweather-Light";
   }
   p,
   li,
@@ -562,7 +562,7 @@
     flex-direction: column;
     position: relative;
     z-index: 1;
-    min-height: 30vh;
+    min-height: 15vh;
     padding-top: 3.125rem;
   }
   #int-hero:before {
@@ -626,10 +626,10 @@
 /* Small Desktop */
 @media only screen and (min-width: 64em) {
   #int-hero {
-    min-height: 18.75rem;
+    min-height: 14.75rem;
     height: auto;
     padding-top: 5.25rem;
-    padding-block-end: 5.25rem;
+    padding-block-end: 0rem;
     background-attachment: fixed;
     font-size: inherit;
   }
