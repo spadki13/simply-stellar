@@ -341,6 +341,6 @@
   }
   body.dark-mode #services h2 {
     color: #fff;
-    font-weight: bold;
+    font-weight: 300;
   }
 }
