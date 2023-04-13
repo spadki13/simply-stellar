@@ -104,6 +104,10 @@
   h2 {
     font-family: "Merriweather-Light";
   }
+  h1 {
+    font-family: "Merriweather-Light";
+    font-weight: 500;
+  }
   p,
   li,
   a {
@@ -455,10 +459,10 @@
   }
   #navigation #navbar-menu ul li a {
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 500;
     /* 14px - 18px */
     font-size: clamp(0.875rem, 1.5vw, 1.125rem);
-    text-transform: uppercase;
+    text-transform: none;
     position: relative;
     z-index: 1;
     color: #fff;
@@ -625,7 +629,7 @@
     font-size: 100%;
   }
   #int-hero h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 /* Small Desktop */
@@ -646,7 +650,7 @@
 @media only screen and (min-width: 0em) {
   #footer {
     background: #161618;
-    padding: 3rem 0 1.25rem;
+    padding: 10rem 0 1.25rem;
     font-size: min(4vw, 1.2em);
   }
   #footer .left-section {
