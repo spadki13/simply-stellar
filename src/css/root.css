@@ -107,6 +107,7 @@
   p,
   li,
   a {
+    font-family: "Merriweather-Sans";
     font-size: .9rem;
     line-height: 1.4em;
     margin: 0;
