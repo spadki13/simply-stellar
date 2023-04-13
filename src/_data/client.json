@@ -1,14 +1,11 @@
 {
   "name": "Simply Stellar",
   "email": "sudhi@simplystellar.au",
-  "phone": "0450321984",
-  "phoneFormatted": "04 5032 1984",
+  "phone": "0493154619",
+  "phoneFormatted": "04 9315 4619",
   "address": {
     "lineOne": "Sydney",
-    "lineTwo": "Sydney1",
-    "city": "Sydney2",
     "county": "AUS",
-    "postcode": "2000",
     "mapLink": "https://goo.gl/maps/zm9MxQhTXnyqZiYD6"
   },
   "domain": "www.simplystellar.au"
