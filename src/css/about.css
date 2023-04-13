@@ -73,7 +73,7 @@
   }
   #sbs .cs-title {
     font-size: var(--headerFontSize);
-    font-weight: 900;
+    font-weight: 500;
     line-height: 1.2em;
     text-align: left;
     max-width: 50rem;
