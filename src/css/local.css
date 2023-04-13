@@ -62,7 +62,7 @@
   }
   #sbs .cs-topper {
     font-size: var(--topperFontSize);
-    line-height: 1.2em;
+    line-height: 2.4em;
     text-transform: uppercase;
     text-align: left;
     letter-spacing: .1em;
@@ -635,7 +635,7 @@
     height: 100%;
     width: 100%;
     background: #000;
-    opacity: .7;
+    opacity: 0;
     top: 0;
     left: 0;
     z-index: -1;
@@ -665,7 +665,7 @@
     line-height: 1.20833333;
     color: #fff;
     position: relative;
-    margin-bottom: 2.25rem;
+    margin-bottom: 1.2rem;
     text-align: center;
   }
   #cta p {
@@ -681,14 +681,14 @@
 /* Small Desktop */
 @media only screen and (min-width: 64em) {
   #cta {
-    padding: 10.5rem 0;
+    padding: 5.25rem 0;
   }
 }
 /* Large Desktop */
 @media only screen and (min-width: 1300px) {
   #cta {
     position: relative;
-    margin-top: 6.25rem;
+    margin-top: 1.25rem;
   }
   #cta:before {
     display: none;
@@ -714,7 +714,7 @@
     margin: auto;
   }
   #cta picture {
-    width: 90.0625%;
+    width: 100%;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -724,8 +724,6 @@
     display: block;
     height: 100%;
     width: 100%;
-    background: #000;
-    opacity: .7;
     top: 0;
     left: 0;
     z-index: 1;

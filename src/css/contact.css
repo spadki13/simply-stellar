@@ -251,7 +251,7 @@
   #cs-contact .cs-container {
     max-width: 80rem;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: flex-start;
     gap: 5rem;
   }

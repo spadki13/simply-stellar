@@ -4,7 +4,7 @@
 /* Mobile - 360px */
 @media only screen and (min-width: 0em) {
   #hero {
-    font-family: 'Merriweather', 'Arial', sans-serif;
+    font-family: 'Merriweather-Light', 'Arial', sans-serif;
     /* Centers button */
     text-align: center;
     /* changes on tablet */
@@ -30,8 +30,7 @@
     content: '';
     width: 100%;
     height: 100%;
-    background: #000;
-    opacity: .7;
+    opacity: 0;
     position: absolute;
     display: block;
     top: 0;
@@ -101,7 +100,7 @@
   }
   #hero .cs-title {
     /* 39px - 61px */
-    font-size: clamp(2rem, 6vw, 3.5rem);
+    font-size: clamp(2.2rem, 6vw, 3.5rem);
     font-weight: 500;
     line-height: 1.2em;
     text-align: center;
@@ -296,7 +295,7 @@
   }
   .services .card h2 {
     text-align: center;
-    font-size: 2em;
+    font-size: 1.3em;
     line-height: 1.35em;
     font-weight: 700;
     color: #1a1a1a;

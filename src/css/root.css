@@ -4,16 +4,16 @@
 /* Mobile */
 @media only screen and (min-width: 0em) {
   :root {
-    --primary: #eec486;
+    --primary: #e8b05d;
     --primaryShade: #ffd675;
-    --primaryDark: #916b6b;
-    --bodyTextColor: #ac9f9f;
+    --primaryDark: #5F5F69;
+    --bodyTextColor: #5f5757;
     --bodyTextColorWhite: #f2f5f8;
     --headerColor: #1a1a1a;
     /* 13px - 16px */
     --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
     /* 31px - 49px */
-    --headerFontSize: clamp(1.9375rem, 4.5vw, 3.0625rem);
+    --headerFontSize: clamp(2rem, 4vw, 2.2rem);
     /* 60px - 100px top and bottom */
     --sectionPadding: clamp(3.75em, 7.82vw, 6.25em) 1rem;
   }
@@ -41,15 +41,30 @@
     font-style: normal;
     font-weight: 500;
     src: local(''), url('/assets/fonts/Merriweather.woff') format('woff'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('/assets/fonts/Merriweather.woff') format('woff');
+  }
+
+  @font-face {
+      font-family: 'Merriweather-Light';
+      font-style: normal;
+      font-weight: 500;
+      src: local(''), url('/assets/fonts/Merriweather-Light.woff') format('woff'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('/assets/fonts/Merriweather-Light.woff') format('woff');
     
     /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
+  @font-face {
+    font-family: 'Merriweather-Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''), url('/assets/fonts/MerriweatherSans-Regular.woff') format('woff'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('/assets/fonts/MerriweatherSans-Regular.woff') format('woff');
+  
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
   body,
   html {
     margin: 0;
     padding: 0;
     font-size: 100%;
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: 'Merriweather-Sans', Arial, sans-serif;
     color: var(--bodyTextColor);
     overflow-x: hidden;
   }
@@ -77,11 +92,14 @@
     margin: 0;
     color: var(--headerColor);
   }
+  h2 {
+    font-family: "Merriweather-Sans";
+  }
   p,
   li,
   a {
     font-size: 1rem;
-    line-height: 1em;
+    line-height: 1.4em;
     margin: 0;
   }
   p,
@@ -125,7 +143,7 @@
     top: 0;
     left: 0;
     z-index: -1;
-    background-color: #000;
+    background-color: #763535;
     width: 0;
     transition: width .3s;
   }
@@ -545,7 +563,7 @@
     height: 100%;
     width: 100%;
     background: #000;
-    opacity: .7;
+    opacity: 0;
     top: 0;
     left: 0;
     z-index: -1;
@@ -601,8 +619,8 @@
   #int-hero {
     min-height: 18.75rem;
     height: auto;
-    padding-top: 11.25rem;
-    padding-block-end: 6.25rem;
+    padding-top: 5.25rem;
+    padding-block-end: 5.25rem;
     background-attachment: fixed;
     font-size: inherit;
   }
@@ -613,7 +631,7 @@
 /* Mobile */
 @media only screen and (min-width: 0em) {
   #footer {
-    background: #1C1C1C;
+    background: #161618;
     padding: 3rem 0 1.25rem;
     font-size: min(4vw, 1.2em);
   }
@@ -632,7 +650,7 @@
   }
   #footer .left-section .logo img {
     width: auto;
-    height: 50%;
+    height: 80%;
     display: block;
   }
   #footer .left-section p {
@@ -752,7 +770,8 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     width: 96%;
     max-width: 82.5rem;
     margin: auto;
@@ -817,6 +836,6 @@
 /* Dark Mode */
 @media only screen and (min-width: 0em) {
   body.dark-mode #footer {
-    background: #061623;
+    background: #161618;
   }
 }
