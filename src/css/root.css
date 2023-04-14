@@ -4,7 +4,7 @@
 /* Mobile */
 @media only screen and (min-width: 0em) {
   :root {
-    --primary: #e9a032;
+    --primary: #f8a527;
     --primaryShade: #dbb762;
     --primaryDark: #5F5F69;
     --bodyTextColor: #444343;
