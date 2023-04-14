@@ -664,8 +664,9 @@
     line-height: 1.20833333;
     color: #fff;
     position: relative;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
     text-align: center;
+    padding-top: 2rem;
   }
   #cta p {
     color: #fff;
@@ -688,7 +689,7 @@
 @media only screen and (min-width: 1300px) {
   #cta {
     position: relative;
-    margin-top: 1.25rem;
+    margin-top: 2rem;
   }
   #cta:before {
     display: none;

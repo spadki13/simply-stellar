@@ -716,10 +716,12 @@
     margin-bottom: 0.75rem;
     color: #fff;
     font-size: 1.125rem;
+    text-transform: lowercase;
     opacity: .9;
   }
   #footer .right-section .lists ul li a {
     text-decoration: none;
+    text-transform: lowercase;
     color: #fff;
     line-height: 1.16666667em;
     transition: color .3s;
@@ -731,9 +733,10 @@
     color: #fff;
     font-size: 1.125rem;
     line-height: 1.16666667em;
+    letter-spacing: .1rem;
     margin-bottom: 2rem;
-    text-transform: uppercase;
-    font-weight: 500;
+    text-transform: lowercase;
+    font-weight: 700;
     position: relative;
     display: flex;
     justify-content: space-around;
