@@ -7,7 +7,11 @@
     --primary: #e9a032;
     --primaryShade: #dbb762;
     --primaryDark: #5F5F69;
-    --bodyTextColor: #444343;
+<<<<<<< HEAD
+    --bodyTextColor: #6e6c6c;
+=======
+    --bodyTextColor: #393939;
+>>>>>>> 1e0b283205f40c4819b6d41331c6d06a51ef20c5
     --bodyTextColorWhite: #f2f5f8;
     --headerColor: #1a1a1a;
     /* 13px - 16px */

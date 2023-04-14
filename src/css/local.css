@@ -106,7 +106,7 @@
     font-size: clamp(0.875rem, 1.5vw, 1rem);
     line-height: 1.5em;
     margin: 0 0 1rem;
-    color: #767676;
+    color: #4e4c4c;
   }
   #sbs .cs-name {
     font-size: 1rem;
@@ -163,7 +163,7 @@
     border: clamp(0.375em, 1.5vw, 0.75em) solid var(--dark);
   }
   body.dark-mode #sbs .cs-topper {
-    color: var(--primaryLight);
+    color: var(--primary);
   }
   body.dark-mode #sbs .cs-title,
   body.dark-mode #sbs .cs-text,
