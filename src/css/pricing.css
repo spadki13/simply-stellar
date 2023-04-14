@@ -102,7 +102,7 @@
     #pricing .cs-flex-group {
       /* 16px - 32px */
       padding: clamp(1rem, 3vw, 2rem);
-      background-color: #F7F7F7;
+      background-color: #eeeeee;
       border-radius: 1rem;
       position: relative;
     }
@@ -111,7 +111,7 @@
       font-size: clamp(0.875rem, 1.5vw, 1rem);
       line-height: 1.5em;
       margin: 0 0 1rem;
-      color: #767676;
+      color: #4b4a4a;
     }
     #pricing .cs-name {
       font-size: 1rem;
@@ -178,7 +178,7 @@
       color: var(--bodyTextColorWhite);
     }
     body.dark-mode #pricing .cs-flex-group {
-      background-color: var(--accent);
+      background-color: var(--medium);
     }
     body.dark-mode #pricing .cs-job {
       color: var(--bodyTextColorWhite);

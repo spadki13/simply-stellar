@@ -103,7 +103,7 @@
   #sbs .cs-flex-group {
     /* 16px - 32px */
     padding: clamp(1rem, 3vw, 2rem);
-    background-color: #F7F7F7;
+    background-color: #eeeeee;
     border-radius: 1rem;
     position: relative;
   }
@@ -179,7 +179,7 @@
     color: var(--bodyTextColorWhite);
   }
   body.dark-mode #sbs .cs-flex-group {
-    background-color: var(--accent);
+    background-color: var(--medium);
   }
   body.dark-mode #sbs .cs-job {
     color: var(--bodyTextColorWhite);
