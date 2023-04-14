@@ -10,7 +10,7 @@
     --headerFontSize: clamp(1.375rem, 4vw, 2.0625rem);
     --bodyFontSize: 1rem;
     /* 60px - 100px top and bottom */
-    --sectionPadding: clamp(2em, 5vw, 5em) 1rem;
+    --sectionPadding: clamp(1em, 1.5vw, 3em) 1rem;
   }
   #cs-contact {
     font-family: 'Arial', sans-serif;
@@ -127,13 +127,13 @@
     position: absolute;
     height: 100%;
     width: 0%;
-    background: #000;
+    background: #763535;
     opacity: 1;
     top: 0;
     left: 0;
     z-index: -1;
     border-radius: 0.25rem;
-    transition: width .3s;
+    transition: width .6s;
   }
   #cs-contact .cs-button-solid:hover {
     color: var(--bodyTextColorWhite);
