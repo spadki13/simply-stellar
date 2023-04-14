@@ -669,7 +669,7 @@
   #footer .left-section .logo img {
     width: auto;
     height: 80%;
-    display: block;
+    display: flex;
   }
   #footer .left-section p {
     font-size: 0.875rem;
@@ -688,7 +688,7 @@
   }
   #footer .right-section .lists {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     width: 96%;
     max-width: 19.1875rem;
@@ -731,17 +731,18 @@
     color: #fff;
     font-size: 1.125rem;
     line-height: 1.16666667em;
-    margin-bottom: 2.3125rem;
+    margin-bottom: 2rem;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 500;
     position: relative;
+    display: flex;
+    justify-content: space-around;
   }
   #footer .right-section .lists ul h2:before {
     content: '';
     position: absolute;
-    display: block;
     height: 0.125rem;
-    width: 6.0625rem;
+    width: 100%;
     background: var(--primary);
     opacity: 1;
     bottom: -1rem;
