@@ -721,7 +721,7 @@
     margin: auto;
     width: auto;
     height: 3.125em;
-    margin-bottom: 4em;
+    margin-bottom: 2.5em;
     text-align: center;
   }
   #footer .left-section .logo img {
@@ -798,7 +798,7 @@
     font-size: 1.125rem;
     line-height: 1.16666667em;
     letter-spacing: .1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.2rem;
     text-transform: lowercase;
     font-weight: 500;
     position: relative;
@@ -888,6 +888,7 @@
     text-align: right;
   }
   #footer .right-section .lists {
+    display: flex;
     width: 100%;
     max-width: 48.0625rem;
     margin: 0;
@@ -902,6 +903,7 @@
     margin-bottom: 0;
   }
   #footer .right-section .lists ul li a {
+    display: flex;
     position: relative;
     justify-content: right;
   }
