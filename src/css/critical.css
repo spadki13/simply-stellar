@@ -298,18 +298,20 @@
     height: 2em;
   }
   .services .card h2 {
+    font-family: "Merriweather-Sans-Light";
     text-align: center;
-    font-size: 1.3em;
-    line-height: 1.35em;
-    font-weight: 500;
+    font-size: 1.1em;
+    line-height: 1.3em;
+    font-weight: 700;
     color: #1a1a1a;
     margin-bottom: 0.65em;
   }
   .services .card p {
     text-align: center;
-    line-height: 1.33333333em;
+    line-height: 1.4em;
     width: 100%;
-    opacity: .7;
+    opacity: .9;
+    font-size: .8em;
   }
 }
 /* Inbetween */
