@@ -4,7 +4,7 @@
 /* Mobile - 360px */
 @media only screen and (min-width: 0em) {
     #pricing {
-      padding: clamp(1em, 1.5vw, 3em) 1rem;
+      padding: clamp(1em, 1.5vw, 3em) 2rem;
     }
     #pricing .cs-container {
       width: 100%;
@@ -70,8 +70,8 @@
       line-height: 1.2em;
       text-transform: uppercase;
       text-align: left;
-      letter-spacing: .1em;
-      font-weight: 500;
+      font-weight: 700;
+      letter-spacing: .2em;
       color: var(--primary);
       margin-bottom: clamp(0.5rem, 1.4vw, 0.75rem);
       display: block;
@@ -82,7 +82,7 @@
       line-height: 1.2em;
       text-align: left;
       max-width: 50rem;
-      margin: 0 auto 1rem;
+      margin: 0 auto 1.5rem;
       color: var(--headerColor);
       position: relative;
     }

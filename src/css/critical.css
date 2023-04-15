@@ -9,8 +9,8 @@
     text-align: center;
     /* changes on tablet */
     padding: 0 1rem;
-    padding-bottom: 9.25rem;
-    padding-top: 4.25rem;
+    padding-bottom: 15.50rem;
+    padding-top: 6.25rem;
     position: relative;
     z-index: 1;
     /* prevents overflow from the lines extending past the screen width */
@@ -57,7 +57,6 @@
     /* changes on tablet */
     padding: clamp(9em, 25.95vw, 17.5em) 0;
     margin: auto;
-    margin-bottom: 9rem;
     position: relative;
   }
   #hero .cs-container:before {
@@ -90,11 +89,11 @@
   }
   #hero .cs-topper {
     /* 13px - 16px */
-    font-size: clamp(1rem, 1.2vw, 1rem);
+    font-size: clamp(.9rem, 1.2vw, 1rem);
     line-height: 1em;
     text-transform: uppercase;
     text-align: center;
-    letter-spacing: .1em;
+    letter-spacing: .2em;
     font-weight: 500;
     color: #dbb762;
     display: block;
@@ -245,6 +244,7 @@
     background-repeat: no-repeat;
     /* creates parallax effect on background image */
     background-attachment: fixed;
+    padding-bottom: 11rem;
   }
 }
 /* Dark Mode */
@@ -269,7 +269,7 @@
     max-width: 82.5em;
     padding: 2.125em 1em;
     border-top: 0.25em solid var(--primary);
-    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
     margin-bottom: 3.125em;
   }
   .services .card {

@@ -4,18 +4,20 @@
 /* Mobile */
 @media only screen and (min-width: 0em) {
   :root {
-    --primary: #e7a644;
+    --primary: #e49b2e;
+    --primaryButton: #ffb648;
+    --hoverLink: #fddaa6;
     --primaryShade: #dbb762;
-    --primaryDark: #5F5F69;
-    --bodyTextColor: #444343;
+    --primaryDark: #bd7e21;
+    --bodyTextColor: #333333;
     --bodyTextColorWhite: #f2f5f8;
     --headerColor: #1a1a1a;
     /* 13px - 16px */
-    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    --topperFontSize: clamp(0.8125rem, 1.3vw, .9rem);
     /* 31px - 49px */
-    --headerFontSize: clamp(1.6rem, 4vw, 2.2rem);
+    --headerFontSize: clamp(1.2rem, 3vw, 2rem);
     /* 60px - 100px top and bottom */
-    --sectionPadding: clamp(4em, 7vw, 4.5em) 1rem;
+    --sectionPadding: clamp(4em, 7vw, 4.5em) 2rem;
   }
   /* roboto-regular - latin */
   @font-face {
@@ -118,7 +120,7 @@
   }
   p,
   li {
-    color: #313131;
+    color: #333333;
   }
   a:hover,
   button:hover {
@@ -137,35 +139,50 @@
     padding: 0 1.875rem;
     position: relative;
     z-index: 1;
-    background-color: var(--primary);
+    background-color: var(--primaryButton);
     color: #000;
     transition: color .3s;
     transition-delay: .1s;
   }
   .button-hero {
-    font-size: 1rem;
+    font-family: "Merriweather-Sans";
+    font-size: 0.8rem;
     font-weight: 500;
     text-transform: uppercase;
     text-decoration: none;
     display: inline-block;
     width: auto;
-    line-height: 3.125em;
-    height: 3.125rem;
+    line-height: 2.5rem;
+    height: 2.5rem;
     text-align: center;
     padding: 0 1.875rem;
     position: relative;
+    border-radius: 1.25rem;
     z-index: 1;
-    background-color: var(--primary);
+    background-color: var(--primaryButton);
     color: #000;
-    transition: color .3s;
+    transition: color .5s;
     transition-delay: .1s;
   }
   .button-hero:hover {
-    color: #fff;
+    background-color: #E5E5E6;
+    transition: .3s;
   }
-  .button-hero:hover:before {
-    width: 100%;
+  
+  .button-hero:after {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 100%;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: var(--primaryButton);
+    border-radius: 1.25rem;
+    width: 0;
   }
+
   .button-hero:before {
     content: '';
     position: absolute;
@@ -175,9 +192,10 @@
     top: 0;
     left: 0;
     z-index: -1;
-    background-color: #763535;
+    background-color: #eb9d28;
+    border-radius: 1.25rem;
     width: 0;
-    transition: width .3s;
+    transition: .3s;
   }
 
   .button-solid:hover {
@@ -414,7 +432,7 @@
 /* Desktop */
 @media only screen and (min-width: 64em) {
   ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 0.375em rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: inset 0 0 0.2em rgba(0, 0, 0, 0.5);
     background-color: #fff;
   }
   ::-webkit-scrollbar-track-piece {
@@ -642,13 +660,13 @@
   }
   #int-hero h1 {
     color: #fff;
-    font-size: 2.13333333rem;
+    font-size: 2rem;
     text-align: center;
     margin: 0 auto;
     position: relative;
     width: 96%;
     max-width: 31.25rem;
-    margin-top: 4.375rem;
+    margin-top: 3.5rem;
     margin-bottom: 2.275rem;
   }
   #int-hero p {
@@ -688,8 +706,10 @@
 @media only screen and (min-width: 0em) {
   #footer {
     background: #161618;
-    padding: 2rem 0 1.25rem;
+    padding: 4rem 0 4rem;
     font-size: min(4vw, 1.2em);
+    align-items: center;
+    justify-content: center;
   }
   #footer .left-section {
     margin: auto;
@@ -701,7 +721,7 @@
     margin: auto;
     width: auto;
     height: 3.125em;
-    margin-bottom: 1em;
+    margin-bottom: 4em;
     text-align: center;
   }
   #footer .left-section .logo img {
@@ -723,6 +743,7 @@
     width: 96%;
     max-width: 25.4375rem;
     margin: auto;
+    justify-content: center;
   }
   #footer .right-section .lists {
     display: flex;
@@ -736,6 +757,7 @@
     padding: 0;
     margin-bottom: 0;
     margin-top: 0;
+    justify-content: center;
   }
   #footer .right-section .lists ul:nth-of-type(3) {
     margin-top: 3.125rem;
@@ -750,12 +772,14 @@
     margin-bottom: 0;
   }
   #footer .right-section .lists ul li {
+    display: flex;
     list-style: none;
     margin-bottom: 0.75rem;
     color: #fff;
-    font-size: 1.125rem;
+    font-size: .9rem;
     text-transform: lowercase;
     opacity: .9;
+    justify-content: center;
   }
   #footer .right-section .lists ul li a {
     text-decoration: none;
@@ -763,9 +787,11 @@
     color: #fff;
     line-height: 1.16666667em;
     transition: color .3s;
+    opacity: .8;
+    justify-content: center;
   }
   #footer .right-section .lists ul li a:hover {
-    color: var(--primary);
+    color: var(--hoverLink);
   }
   #footer .right-section .lists ul h2 {
     color: #fff;
@@ -774,17 +800,17 @@
     letter-spacing: .1rem;
     margin-bottom: 2rem;
     text-transform: lowercase;
-    font-weight: 700;
+    font-weight: 500;
     position: relative;
     display: flex;
-    justify-content: start;
+    justify-content: center;
   }
   #footer .right-section .lists ul h2:before {
     content: '';
     position: absolute;
     height: 0.125rem;
     width: 100%;
-    background: var(--primary);
+    background: var(--hoverLink);
     opacity: 1;
     bottom: -1rem;
     left: 0;
@@ -809,7 +835,7 @@
     font-size: 1rem;
   }
   #footer .credit a {
-    color: var(--primary);
+    color: var(--hoverLink);
     text-decoration: none;
     font-size: 1rem;
   }
@@ -840,7 +866,8 @@
   #footer .left-section {
     width: 50%;
     margin: 0;
-    text-align: center;
+    text-align: left;
+    padding-left: 5rem;
   }
   #footer .left-section .logo {
     text-align: left;
@@ -852,15 +879,21 @@
     margin-left: 0;
   }
   #footer .right-section {
+    display: flex;
     margin: 0;
     width: 50%;
     max-width: none;
+    padding-right: 5rem;
+    justify-content: right;
+    text-align: right;
   }
   #footer .right-section .lists {
-    width: 96%;
+    width: 100%;
     max-width: 48.0625rem;
     margin: 0;
     max-width: initial;
+    justify-content: right;
+    text-align: right;
   }
   #footer .right-section .lists ul:nth-of-type(3) {
     margin-top: 0;
@@ -870,6 +903,7 @@
   }
   #footer .right-section .lists ul li a {
     position: relative;
+    justify-content: right;
   }
   #footer .right-section .lists ul li a:before {
     content: '';
