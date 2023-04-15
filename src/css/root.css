@@ -777,7 +777,7 @@
     font-weight: 700;
     position: relative;
     display: flex;
-    justify-content: space-around;
+    justify-content: start;
   }
   #footer .right-section .lists ul h2:before {
     content: '';
