@@ -525,7 +525,7 @@
     max-width: 40.625rem;
     margin: 0 auto;
     /* 88px - 104px */
-    margin-bottom: clamp(4em, 8vw, 5.2em);
+    margin-bottom: clamp(2em, 8vw, 2em);
     color: var(--bodyTextColor);
   }
   #reviews .cs-card-group {
