@@ -4,7 +4,7 @@
 /* Mobile - 360px */
 @media only screen and (min-width: 0em) {
     #pricing {
-      padding: clamp(1em, 1.5vw, 3em) 2rem;
+      padding: clamp(0em, 1.5vw, 0em) 2rem;
     }
     #pricing .cs-container {
       width: 100%;
