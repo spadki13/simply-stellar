@@ -9,7 +9,8 @@
     text-align: center;
     /* changes on tablet */
     padding: 0 1rem;
-    padding-bottom: 6.25rem;
+    padding-bottom: 9.25rem;
+    padding-top: 4.25rem;
     position: relative;
     z-index: 1;
     /* prevents overflow from the lines extending past the screen width */
@@ -56,6 +57,7 @@
     /* changes on tablet */
     padding: clamp(9em, 25.95vw, 17.5em) 0;
     margin: auto;
+    margin-bottom: 9rem;
     position: relative;
   }
   #hero .cs-container:before {
@@ -201,6 +203,9 @@
     display: block;
     margin-right: 0.75rem;
   }
+  #hero .cs-hero-button {
+    padding-top: 3rem;
+  }
 }
 /* Tablet - 768px */
 @media only screen and (min-width: 48em) {
@@ -209,7 +214,7 @@
     padding: 0 clamp(2em, 5vw, 2.5em);
   }
   #hero .cs-container {
-    padding: clamp(7em, 27.95vw, 17.5em) 0 clamp(9em, 30.95vw, 23.5em) 0;
+    padding: clamp(6em, 27.95vw, 19em) 0 clamp(9em, 30.95vw, 23.5em) 0;
   }
   #hero .cs-container:after {
     /* Right Line */
