@@ -13,22 +13,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column-reverse;
     overflow: hidden;
     row-gap: 2.5rem;
+    padding-top: 2rem;
   }
   #sbs .cs-left {
     /* scaling the font size with the view width */
     font-size: min(2.31vw, .7em);
     /* using ems so we can use font size to scale the whole section */
     width: 32.4375em;
+    height: 25em;
+    position: relative;
+  }
+  #sbs .cs-centre {
+    /* scaling the font size with the view width */
+    font-size: min(2.31vw, .7em);
+    /* using ems so we can use font size to scale the whole section */
+    width: 32.4375em;
     height: 39.75em;
     position: relative;
-  
-   
   }
   #sbs .cs-picture {
-    border-radius: 1.5em;
+    border-radius: 1em;
     /* clips img tag corners */
     overflow: hidden;
     position: absolute;
@@ -171,6 +178,7 @@
   body.dark-mode #sbs .cs-topper {
     color: var(--primary);
   }
+
   body.dark-mode #sbs .cs-title,
   body.dark-mode #sbs .cs-text,
   body.dark-mode #sbs .cs-h3,

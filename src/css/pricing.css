@@ -16,6 +16,7 @@
       flex-direction: column;
       overflow: hidden;
       row-gap: 1rem;
+      padding-top: 1rem
     }
     #pricing .cs-left {
       /* scaling the font size with the view width */
