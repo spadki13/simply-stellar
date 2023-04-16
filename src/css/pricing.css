@@ -26,6 +26,8 @@
       width: 32.4375em;
       height: 39.75em;
       position: relative;
+      display: flex;
+      justify-content: center;
     
      
     }
