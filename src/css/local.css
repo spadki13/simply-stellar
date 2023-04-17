@@ -98,7 +98,7 @@
     /* 16px - 32px */
     padding: clamp(1rem, 3vw, 2rem);
     background-color: #eeeeee;
-    border-radius: 1rem;
+    border-radius: .5em;
     position: relative;
   }
   #sbs .cs-flex-p {
@@ -283,7 +283,7 @@
     /* 16px - 32px */
     padding: clamp(1rem, 3vw, 2rem);
     background-color: #F7F7F7;
-    border-radius: 1rem;
+    border-radius: 0.5em;
     position: relative;
   }
   #sbs-r .cs-flex-p {
@@ -544,7 +544,7 @@
     /* 32px - 40px */
     padding-bottom: clamp(2rem, 5.4vw, 2.5rem);
     box-shadow: 0px 20px 39px 0px rgba(0, 0, 0, 0.192);
-    border-radius: 0.5rem;
+    border-radius: 0.5em;
     background: #fffefe;
     position: relative;
     display: flex;
@@ -591,6 +591,7 @@
     height: 1rem;
   }
 }
+
 /* Tablet - 768px */
 @media only screen and (min-width: 48em) {
   #reviews .cs-card-group {
