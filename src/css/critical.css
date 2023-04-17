@@ -293,6 +293,7 @@
     margin: auto;
     margin-bottom: 1.4375em;
     border-radius: 1em;
+    border: 1px solid #16161827;
   }
   .services .card picture img {
     width: 2em;

@@ -125,7 +125,7 @@
   a:hover,
   button:hover {
     cursor: pointer;
-    border: 1px solid #1616183d;
+    
   }
   .button-solid {
     font-family: "Merriweather-Sans";
@@ -146,7 +146,7 @@
     transition: color .3s;
     transition-delay: .1s;
     border-radius: .5em;
-    border: 1px solid #1616183d;
+    border: 1px solid #16161827;
   }
   .button-hero {
     font-family: "Merriweather-Sans";

@@ -124,7 +124,7 @@
     z-index: 1;
     /* prevents padding from adding to the width */
     box-sizing: border-box;
-    border: 1px solid #1616183d;
+    border: 1px solid #16161827;
   }
   #cs-contact .cs-button-solid:before {
     content: '';
