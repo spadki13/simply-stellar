@@ -13,11 +13,12 @@
     --bodyTextColorWhite: #f2f5f8;
     --headerColor: #1a1a1a;
     /* 13px - 16px */
-    --topperFontSize: clamp(0.8125rem, 1.3vw, .9rem);
+    --topperFontSize: clamp(0.8rem, 1vw, .8rem);
     /* 31px - 49px */
-    --headerFontSize: clamp(1.5rem, 3.5vw, 2rem);
+    --headerFontSize: clamp(1.5rem, 3vw, 1.6rem);
     /* 60px - 100px top and bottom */
     --sectionPadding: clamp(4em, 7vw, 4.5em) 2rem;
+    --bodyFontSize: clamp(.9rem, 3vw, 1rem);
   }
   /* roboto-regular - latin */
   @font-face {
@@ -666,7 +667,7 @@
     position: relative;
     z-index: 1;
     min-height: 16vh;
-    padding-top: 6.125rem;
+    padding-top: 5rem;
     padding-bottom: 1rem;
   }
   #int-hero:before {
@@ -699,7 +700,7 @@
   }
   #int-hero h1 {
     color: #fff;
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
     margin: 0 auto;
     position: relative;
