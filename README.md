@@ -263,7 +263,7 @@ date: 2022-12-16T19:40:18.253Z
 tags:
   - post
   - featured
-image: /images/blog/landing.jpg
+image: /images/blog/background11.png
 imageAlt: Kitchen
 ---
 ```
