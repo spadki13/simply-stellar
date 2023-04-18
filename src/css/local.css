@@ -203,7 +203,7 @@
   }
   #sbs-r .cs-left {
     /* scaling the font size with the view width */
-    font-size: min(2.31vw, .7em);
+    font-size: min(2vw, .6em);
     /* using ems so we can use font size to scale the whole section */
     width: 39.4375em;
     height: 39.75em;
@@ -531,14 +531,14 @@
   #reviews .cs-card-group {
     padding: 0;
     /* 48px - 64px */
-    margin: 0 auto clamp(3rem, 5vw, 4rem);
+    margin: 0 auto clamp(3rem, 5vw, 2rem);
   }
   #reviews .cs-item {
     text-align: left;
     list-style: none;
     width: 100%;
     max-width: 33.875rem;
-    margin: 0 auto 4rem;
+    margin: 0 auto 2rem;
     /* Padding L & R - 16px - 32px */
     padding: 3.75rem clamp(1rem, 3.2vw, 2rem) 0;
     /* 32px - 40px */

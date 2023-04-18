@@ -205,6 +205,11 @@
   }
   #hero .cs-hero-button {
     padding-top: 1.5rem;
+    column-gap: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 1rem;
   }
 }
 /* Tablet - 768px */
@@ -260,7 +265,7 @@
 /* Mobile */
 @media only screen and (min-width: 0em) {
   .services {
-    border-radius: 0.3125em;
+    border-radius: 0.5em;
     margin: auto;
     margin-top: -10.4375em;
     position: relative;
@@ -271,7 +276,7 @@
     padding: 2.125em 1em;
     border-top: 0.25em solid var(--primary);
     box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
-    margin-bottom: 3.125em;
+    margin-bottom: 2.125em;
   }
   .services .card {
     display: block;

@@ -5,15 +5,15 @@
 @media only screen and (min-width: 0em) {
   :root {
     /* 13px - 16px */
-    --topperFontSize: clamp(0.8125rem, 1.3vw, .9rem);
+    --topperFontSize: clamp(0.8rem, 1.3vw, .8rem);
     /* 31px - 49px */
-    --headerFontSize: clamp(1.5rem, 3vw, 1.5rem);
+    --headerFontSize: clamp(1.5rem, 3vw, 1.6rem);
     --bodyFontSize: 1rem;
     /* 60px - 100px top and bottom */
     --sectionPadding: clamp(1em, 1.5vw, 3em) 1rem;
   }
   #cs-contact {
-    font-family: 'Roboto', 'Arial', sans-serif;
+    font-family: Arial, 'Inter', 'Roboto';
     padding: var(--sectionPadding);
   }
   #cs-contact .cs-container {
@@ -39,14 +39,13 @@
   }
   #cs-contact .cs-title {
     font-size: var(--headerFontSize);
-    font-weight: 700;
+    font-weight: 500;
     line-height: 1.2em;
     text-align: left;
     max-width: 50rem;
     margin: 0 auto .8rem 0;
     color: var(--headerColor);
     position: relative;
-    letter-spacing: 0.05em;
   }
   #cs-contact .cs-text {
     font-size: var(--bodyFontSize);
@@ -66,7 +65,7 @@
   #cs-contact #cs-form label {
     font-size: 1rem;
     line-height: 1.5em;
-    font-weight: 700;
+    font-weight: 500;
     /* 12px - 20px */
     margin-bottom: clamp(0.75rem, 1.3em, 1.25rem);
     color: var(--headerColor);
