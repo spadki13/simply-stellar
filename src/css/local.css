@@ -540,7 +540,7 @@
     max-width: 33.875rem;
     margin: 0 auto 2rem;
     /* Padding L & R - 16px - 32px */
-    padding: 3.75rem clamp(1rem, 3.2vw, 2rem) 0;
+    padding: 2rem clamp(1rem, 3.2vw, 2rem) 0;
     /* 32px - 40px */
     padding-bottom: clamp(2rem, 5.4vw, 2.5rem);
     box-shadow: 0px 20px 39px 0px rgba(0, 0, 0, 0.192);
@@ -564,7 +564,7 @@
     top: -2.5rem;
   }
   #reviews .cs-item-p {
-    font-size: 1rem;
+    font-size: .9rem;
     line-height: 1.5em;
     margin: 0 0 1.25rem;
     padding-bottom: 1.25rem;
