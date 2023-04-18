@@ -23,7 +23,7 @@
       font-size: min(2.31vw, .7em);
       /* using ems so we can use font size to scale the whole section */
       width: 32.4375em;
-      height: 25em;
+      height: 32.4375em;
       position: relative;
       
     
