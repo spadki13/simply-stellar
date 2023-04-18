@@ -48,7 +48,7 @@
     position: relative;
   }
   #cs-contact .cs-text {
-    font-size: var(--bodyFontSize);
+    font-size: var(--faqTextSize);
     line-height: 1.5em;
     text-align: left;
     width: 100%;
