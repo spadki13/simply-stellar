@@ -79,12 +79,12 @@
       display: block;
     }
     #pricing .cs-title {
-      font-size: var(--headerFontSize);
+      font-size: var(--faqFontSize);
       font-weight: 500;
       line-height: 1.2em;
       text-align: left;
       max-width: 50rem;
-      margin: 0 auto 1.2rem;
+      margin: 0 auto .8rem;
       color: var(--headerColor);
       position: relative;
     }
