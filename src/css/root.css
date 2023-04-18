@@ -838,6 +838,7 @@
     margin: auto;
     text-align: center;
     margin-bottom: 2rem;
+    margin-top: 1rem;
   }
   #footer .left-section .logo {
     display: inline-block;
@@ -866,7 +867,6 @@
     max-width: 25.4375rem;
     margin: auto;
     justify-content: center;
-    margin-bottom: 2rem;
   }
   #footer .right-section .lists {
     display: flex;
@@ -904,6 +904,7 @@
     justify-content: center;
   }
   #footer .right-section .lists ul li a {
+    font-size: .8em;
     text-decoration: none;
     text-transform: lowercase;
     color: #fff;
@@ -917,7 +918,7 @@
   }
   #footer .right-section .lists ul h2 {
     color: #fff;
-    font-size: 1.125rem;
+    font-size: .9rem;
     line-height: 1.16666667em;
     letter-spacing: .1rem;
     margin-bottom: 1.2rem;
@@ -972,7 +973,7 @@
 /* Small Desktop */
 @media only screen and (min-width: 64em) {
   #footer {
-    font-size: min(1.2vw, 1em);
+    font-size: min(1vw, .8em);
   }
   #footer .container {
     display: flex;
@@ -991,11 +992,12 @@
     text-align: left;
     padding-left: 5rem;
     align-items: center;
+    align-items: center;
   }
   #footer .left-section .logo {
     text-align: left;
     margin-left: 0;
-    height: auto;
+    height: 4em;
     align-items: center;
   }
   #footer .left-section p {
