@@ -4,7 +4,7 @@
 /* Mobile - 360px */
 @media only screen and (min-width: 0em) {
   #sbs {
-    padding: clamp(1em, 1.5vw, 1em) 2rem;
+    padding: clamp(2em, 1.5vw, 5em) 2rem;
   }
   #sbs .cs-container {
     width: 100%;
@@ -16,7 +16,6 @@
     flex-direction: column-reverse;
     overflow: hidden;
     row-gap: 2.5rem;
-    padding-top: 2rem;
   }
   #sbs .cs-left {
     /* scaling the font size with the view width */
@@ -35,7 +34,6 @@
     position: relative;
   }
   #sbs .cs-picture {
-    border-radius: 1em;
     /* clips img tag corners */
     overflow: hidden;
     position: absolute;
@@ -146,7 +144,7 @@
     right: clamp(1rem, 4vw, 2rem);
   }
   #sbs .button-solid {
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
 }
 /* Desktop - 1024px */

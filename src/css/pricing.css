@@ -4,7 +4,7 @@
 /* Mobile - 360px */
 @media only screen and (min-width: 0em) {
     #pricing {
-      padding: clamp(1em, 1.5vw, 1em) 2rem;
+      padding: clamp(2em, 1.5vw, 5em) 2rem;
     }
     #pricing .cs-container {
       width: 100%;
@@ -13,10 +13,9 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      flex-direction: column;
       overflow: hidden;
       row-gap: 1rem;
-      padding-top: 1rem;
+      flex-direction: column-reverse;
     }
 
     #pricing .cs-left {
@@ -24,10 +23,9 @@
       font-size: min(2.31vw, .7em);
       /* using ems so we can use font size to scale the whole section */
       width: 32.4375em;
-      height: 39.75em;
+      height: 25em;
       position: relative;
-      display: flex;
-      justify-content: center;
+      
     
      
     }
@@ -143,7 +141,6 @@
     }
     #pricing .button-solid {
       margin-top: 1rem;
-      margin-bottom: 1rem;
       border: 1px solid #16161827;
     }
   }
