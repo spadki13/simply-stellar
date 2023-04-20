@@ -89,12 +89,13 @@
   }
   #hero .cs-topper {
     /* 13px - 16px */
+    font-family: 'Merriweather-Sans';
     font-size: clamp(.9rem, 1vw, .9rem);
     line-height: 1.5em;
     text-transform: uppercase;
     text-align: center;
-    letter-spacing: .2em;
-    font-weight: 700;
+    letter-spacing: 0.1em;
+    font-weight: 500;
     color: #ecc56aea;
     display: block;
     padding-bottom: 1rem;
@@ -244,7 +245,7 @@
 /* Desktop Parallax Effect - 1300px */
 @media only screen and (min-width: 81.25em) {
   #hero {
-    background: url("/images/landing-2000w.jpeg");
+    background: url("/images/background11-1920w.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

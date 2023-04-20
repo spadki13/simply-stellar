@@ -6,17 +6,18 @@
   :root {
     --primary: #e49b2e;
     --primaryButton: #ffb648;
+    --topperLight: #fdd8a0;
     --hoverLink: #fddaa6;
     --primaryShade: #dbb762;
     --primaryDark: #bd7e21;
-    --bodyTextColor: #272727;
+    --bodyTextColor: #000000;
     --bodyTextColorWhite: #f2f5f8;
     --headerColor: #1a1a1a;
     /* 13px - 16px */
     --topperFontSize: clamp(0.8rem, 1vw, .8rem);
     /* 31px - 49px */
     --headerFontSize: clamp(1.5rem, 3vw, 1.6rem);
-    --faqFontSize: clamp(1rem, 2.5vw, 1.1rem);
+    --faqFontSize: clamp(1.2rem, 2.5vw, 1.2rem);
     --faqTextSize: clamp(.9rem, 2vw, .9rem);
     /* 60px - 100px top and bottom */
     --sectionPadding: clamp(3em, 7vw, 4em) 2rem;

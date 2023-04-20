@@ -90,6 +90,12 @@
     margin: 0 auto;
     margin-bottom: 1rem;
     color: var(--bodyTextColor);
+    text-decoration: none;
+  }
+    #sbs .cs-text:visited {
+    text-decoration: none;
+    color: inherit;
+    }
   }
   #sbs .cs-text:last-of-type {
     margin-bottom: 2rem;
@@ -108,7 +114,15 @@
     margin: 0 0 1rem;
     color: #4e4c4c;
   }
-  #sbs .cs-name {
+  #sbs .cs-flex-p:before {
+    content: '“';
+    position: absolute;
+    margin-left: -.6em;
+  }
+  #sbs .cs-flex-p:after {
+    content:'”';
+  }
+    #sbs .cs-name {
     font-size: 1rem;
     line-height: 1.2em;
     text-transform: uppercase;
@@ -135,7 +149,7 @@
   #sbs .button-solid {
     margin-top: 2rem;
   }
-}
+
 /* Desktop - 1024px */
 @media only screen and (min-width: 64em) {
   #sbs .cs-container {
@@ -247,11 +261,11 @@
   }
   #sbs-r .cs-topper {
     font-size: var(--topperFontSize);
-    line-height: 1.5em;
+    line-height: 2.4em;
     text-transform: uppercase;
     text-align: left;
     letter-spacing: .1em;
-    font-weight: 500;
+    font-weight: 700;
     color: var(--primary);
     margin-bottom: 0.25rem;
     display: block;
@@ -347,7 +361,7 @@
     border: clamp(0.375em, 1.5vw, 0.75em) solid var(--dark);
   }
   body.dark-mode #sbs-r .cs-topper {
-    color: var(--primaryLight);
+    color: var(--primary);
   }
   body.dark-mode #sbs-r .cs-title,
   body.dark-mode #sbs-r .cs-text,
@@ -507,6 +521,17 @@
     margin-bottom: 1rem;
     display: block;
   }
+  #reviews .cs-topperone {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 1rem;
+    display: block;
+  }
   #reviews .cs-title {
     font-size: var(--headerFontSize);
     font-weight: 500;
@@ -525,7 +550,7 @@
     max-width: 40.625rem;
     margin: 0 auto;
     /* 88px - 104px */
-    margin-bottom: clamp(2em, 8vw, 2em);
+    margin-bottom: clamp(.8em, 8vw, .8em);
     color: var(--bodyTextColor);
   }
   #reviews .cs-card-group {
@@ -612,6 +637,7 @@
   body.dark-mode #reviews .cs-title,
   body.dark-mode #reviews .cs-text,
   body.dark-mode #reviews .cs-item-p,
+  body.dark-mode #reviews .cs-topperone,
   body.dark-mode #reviews .cs-reviewer {
     color: var(--bodyTextColorWhite);
   }
