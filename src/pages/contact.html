@@ -1,19 +1,20 @@
 ---
-layout: 'base.html'
-description: 'Meta description for the page'
-metaTitle: 'Title that shows up on google searches'
-tagTitle: 'Contact'
-preloadImg: '/images/background11-1920w.webp'
-preloadCSS: '/css/contact.css'
-permalink: 'contact/'
+layout: "base.html"
+description: "Meta description for the page"
+metaTitle: "Title that shows up on google searches"
+tagTitle: "Contact"
+preloadImg: "/images/background11-1920w.webp"
+preloadCSS: "/css/contact.css"
+permalink: "contact/"
 eleventyNavigation:
-    key: Get Started
-    order: 600
+  key: Get Started
+  order: 600
 ---
 
 <section id="int-hero">
   <h1 id="home-h">Contact Us</h1>
-  {% image './src/images/background11.png', 'cabinets', '', 'lazy', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
+  {% image './src/images/background11.png', 'cabinets', '', 'lazy', '(max-width:
+  400px) 400px, (max-width: 850px) 850px, 1920px'%}
 </section>
 
 <section id="cs-contact">
@@ -23,23 +24,47 @@ eleventyNavigation:
         <span class="cs-topper">Contact</span>
         <h2 class="cs-title">Get in Touch</h2>
         <p class="cs-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ridiculus elementum ullamcorper ipsum porttitor aliquam. Id magna urna ultrices odio pulvinar. Sed ut.
-                </p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ridiculus
+          elementum ullamcorper ipsum porttitor aliquam. Id magna urna ultrices
+          odio pulvinar. Sed ut.
+        </p>
       </div>
       <label>
-                <input required type="text" id="name" name="name" placeholder="Name">
+        <input required type="text" id="name" name="name" placeholder="Name" />
       </label>
       <label>
-                <input required type="text" id="email" name="email" placeholder="Email">
+        <input
+          required
+          type="text"
+          id="email"
+          name="email"
+          placeholder="Email"
+        />
       </label>
       <label>
-                <input required type="text" id="phone" name="phone" placeholder="Phone">
+        <input
+          required
+          type="text"
+          id="phone"
+          name="phone"
+          placeholder="Phone"
+        />
       </label>
-      <label>         
-                <input type="text" id="find" name="find-us" placeholder="How did you find us?">
+      <label>
+        <input
+          type="text"
+          id="find"
+          name="find-us"
+          placeholder="How did you find us?"
+        />
       </label>
       <label class="cs-label-message">
-                <textarea required name="Message" id="message" placeholder="Your message here"></textarea>
+        <textarea
+          required
+          name="Message"
+          id="message"
+          placeholder="Your message here"
+        ></textarea>
       </label>
       <button class="cs-button-solid" type="submit">Submit Message</button>
     </form>
