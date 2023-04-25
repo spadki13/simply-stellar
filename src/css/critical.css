@@ -96,7 +96,7 @@
     text-align: center;
     letter-spacing: 0.1em;
     font-weight: 500;
-    color: #ecc56aea;
+    color: var(--primary);
     display: block;
     padding-bottom: 1rem;
   }

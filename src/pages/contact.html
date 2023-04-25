@@ -19,50 +19,28 @@ eleventyNavigation:
 
 <section id="cs-contact">
   <div class="cs-container">
-    <form id="cs-form" name="Contact Form" method="post" data-netlify="true">
+    <form id="cs-form" name="Contact Form" method="post" data-netlify="true" action="/success">
       <div class="cs-content">
         <span class="cs-topper">Contact</span>
         <h2 class="cs-title">Get in Touch</h2>
         <p class="cs-text">
-          We endeavour to respond to all enquiries within 24 hours.
+          We endeavour to respond to all enquiries within one day.
         </p>
       </div>
       <label>
         <input required type="text" id="name" name="name" placeholder="Name" />
       </label>
       <label>
-        <input
-          required
-          type="text"
-          id="email"
-          name="email"
-          placeholder="Email"
-        />
+        <input required type="text" id="email" name="email" placeholder="Email" />
       </label>
       <label>
-        <input
-          required
-          type="text"
-          id="phone"
-          name="phone"
-          placeholder="Phone"
-        />
+        <input required type="text" id="phone" name="phone" placeholder="Phone" />
       </label>
       <label>
-        <input
-          type="text"
-          id="find"
-          name="find-us"
-          placeholder="Existing business URL"
-        />
+        <input type="text" id="find" name="find-us" placeholder="Existing business URL" />
       </label>
       <label class="cs-label-message">
-        <textarea
-          required
-          name="Message"
-          id="message"
-          placeholder="Your message here"
-        ></textarea>
+        <textarea required name="Message" id="message" placeholder="Your message here"></textarea>
       </label>
       <button class="cs-button-solid" type="submit">Submit Message</button>
     </form>

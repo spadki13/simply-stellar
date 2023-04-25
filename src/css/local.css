@@ -68,7 +68,7 @@
     letter-spacing: .1em;
     font-weight: 700;
     color: var(--primary);
-    margin-bottom: 0.25rem;
+    margin-bottom: clamp(0.5rem, 1.4vw, .75rem);
     display: block;
   }
   #sbs .cs-title {
@@ -267,7 +267,7 @@
     letter-spacing: .1em;
     font-weight: 700;
     color: var(--primary);
-    margin-bottom: 0.25rem;
+    margin-bottom: clamp(0.5rem, 1.4vw, .75rem);
     display: block;
   }
   #sbs-r .cs-title {
@@ -518,7 +518,7 @@
     letter-spacing: .1em;
     font-weight: 700;
     color: var(--primary);
-    margin-bottom: 1rem;
+    margin-bottom: clamp(0.5rem, 1.4vw, .75rem);
     display: block;
   }
   #reviews .cs-topperone {

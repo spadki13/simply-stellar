@@ -899,7 +899,7 @@
     list-style: none;
     margin-bottom: 0.75rem;
     color: #fff;
-    font-size: .9rem;
+    font-size: 1rem;
     text-transform: lowercase;
     opacity: .9;
     justify-content: center;
@@ -974,7 +974,7 @@
 /* Small Desktop */
 @media only screen and (min-width: 64em) {
   #footer {
-    font-size: min(1vw, .8em);
+    font-size: min(1vw, 1em);
   }
   #footer .container {
     display: flex;

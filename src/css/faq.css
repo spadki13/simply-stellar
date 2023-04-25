@@ -81,7 +81,7 @@
     letter-spacing: 0.1em;
     font-weight: 700;
     color: var(--primary);
-    margin-bottom: clamp(1.5rem, 1.4vw, 1.5rem);
+    margin-bottom: clamp(0.5rem, 1.4vw, .75rem);
     display: block;
   }
   #sbs .cs-title {
