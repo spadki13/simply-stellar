@@ -80,7 +80,7 @@
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 0.1em;
-    font-weight: 700;
+    font-weight: 500;
     color: var(--primary);
     margin-bottom: clamp(0.75rem, 1.4vw, 1.5rem);
     display: block;
@@ -95,7 +95,7 @@
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 0.1em;
-    font-weight: 700;
+    font-weight: 500;
     color: var(--primary);
     margin-bottom: clamp(1.5em, 1.4vw, 1.5rem);
     display: block;

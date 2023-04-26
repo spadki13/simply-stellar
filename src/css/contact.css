@@ -5,7 +5,7 @@
 @media only screen and (min-width: 0em) {
   :root {
     /* 13px - 16px */
-    --topperFontSize: clamp(0.8rem, 1.3vw, .8rem);
+    --topperFontSize: clamp(0.9rem, 1vw, 0.9rem);
     /* 31px - 49px */
     --headerFontSize: clamp(1.5rem, 3vw, 1.6rem);
     --bodyFontSize: 1rem;
