@@ -161,7 +161,7 @@
 
   p,
   li {
-    color: #222222;
+    color: #181717;
   }
 
   a:hover,
@@ -195,7 +195,7 @@
 
   .button-hero {
     font-family: "Merriweather-Sans";
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-weight: 500;
     text-transform: uppercase;
     text-decoration: none;
@@ -252,7 +252,7 @@
 
   .button-herotwo {
     font-family: "Merriweather-Sans";
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-weight: 500;
     text-transform: uppercase;
     text-decoration: wavy;

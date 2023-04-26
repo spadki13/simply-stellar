@@ -117,7 +117,7 @@
     font-size: clamp(0.9rem, 1.5vw, 0.9rem);
     line-height: 1.5em;
     margin: 0 0 1rem;
-    color: #4e4c4c;
+    color: #2e2d2d;
   }
   #sbs .cs-flex-p:before {
     content: '“';
@@ -139,7 +139,7 @@
   #sbs .cs-job {
     font-size: 0.8rem;
     line-height: 1.5em;
-    color: #444343;
+    color: #2e2d2d;
     display: block;
   }
   #sbs .cs-quote-icon {
