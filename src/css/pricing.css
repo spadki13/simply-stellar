@@ -53,6 +53,7 @@
       align-items: center;
       justify-content: center;
       border-radius: 0.5em;
+      background-color: inherit;
     }
     #pricing .cs-picture2 {
       width: 25.875em;
