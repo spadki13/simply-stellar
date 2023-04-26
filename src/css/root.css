@@ -675,7 +675,7 @@
 
   body.scroll #navigation .background-color-div {
     height: 100%;
-    box-shadow: rgba(82, 82, 82, 0.644) 0px 0px 20px 10px;
+    box-shadow: rgba(131, 131, 131, 0.492) 0px 0px 20px 10px;
   }
 
   body.scroll #navigation .logo .light {
@@ -696,7 +696,7 @@
 
   body.dark-mode #navigation .background-color-div {
     height: 100%;
-    box-shadow: rgba(0, 0, 0, 0.644) 0px 0px 20px 20px;
+    box-shadow: rgba(0, 0, 0, 0.644) 0px 0px 30px 10px;
   }
 
   #navigation {
