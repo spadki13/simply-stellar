@@ -78,7 +78,7 @@
       text-transform: uppercase;
       text-align: left;
       letter-spacing: .1em;
-      font-weight: 700;
+      font-weight: 500;
       color: var(--primary);
       margin-bottom: clamp(1.5em, 1.4vw, 1.5rem);
       display: block;
