@@ -290,7 +290,7 @@
     margin-bottom: 0;
   }
   .services .card picture {
-    background: var(--primary);
+    background: var(--primaryButton);
     width: 3.5em;
     height: 3.5em;
     display: flex;
@@ -308,7 +308,7 @@
   .services .card h2 {
     font-family: "Merriweather-Sans-Light";
     text-align: center;
-    font-size: 1.1em;
+    font-size: 1em;
     line-height: 1.3em;
     font-weight: 500;
     color: #1a1a1a;
@@ -318,7 +318,7 @@
     text-align: center;
     line-height: 1.4em;
     width: 100%;
-    opacity: .9;
+    opacity: .7;
     font-size: .9em;
   }
 }
