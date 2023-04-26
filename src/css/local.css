@@ -33,7 +33,7 @@
   }
   #sbs .cs-picture img {
     position: absolute;
-    border-radius: .5em;
+    border-radius: .25em;
     top: 0;
     left: 0;
     height: 100%;
@@ -47,7 +47,7 @@
     background-color: #161618;
     left: 0;
     top: 0;
-    border: clamp(0.25em, 1vw, 0.25em) solid #161618;
+    border: clamp(0.15em, 1vw, 0.15em) solid #161618;
   }
   #sbs .cs-picture2 {
     width: 25.875em;
@@ -56,7 +56,7 @@
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 40px;
     background-color: #161618;
     /* 6px - 12px */
-    border: clamp(0.25em, 1vw, 0.25em) solid #161618;
+    border: clamp(0.20em, 1vw, 0.20em) solid #161618;
     right: 0;
     bottom: 0;
   }
@@ -179,7 +179,7 @@
   body.dark-mode #sbs .cs-picture2 {
     background-color: var(--dark);
     /* 6px - 12px */
-    border: clamp(0.25em, 1vw, 0.25em) solid #161618;
+    border: clamp(0.2em, 1vw, 0.2em) solid #161618;
   }
   body.dark-mode #sbs .cs-topper {
     color: var(--primary);
@@ -237,7 +237,7 @@
   }
   #sbs-r .cs-picture img {
     position: absolute;
-    border-radius: 0.5em;
+    border-radius: 0.25em;
     top: 0;
     left: 0;
     height: 100%;
@@ -251,7 +251,7 @@
     right: 0;
     top: 0;
     background-color: #161618;
-    border: clamp(0.25em, 1vw, 0.25em) solid #161618;
+    border: clamp(0.15em, 1vw, 0.15em) solid #161618;
   }
   #sbs-r .cs-picture2 {
     width: 25.875em;
@@ -259,7 +259,7 @@
     background-color: #161618;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 40px;
     /* 6px - 12px */
-    border: clamp(0.25em, 1vw, 0.25em) solid #161618;
+    border: clamp(0.2em, 1vw, 0.2em) solid #161618;
     left: 0;
     bottom: 0;
   }
@@ -366,7 +366,7 @@
   body.dark-mode #sbs-r .cs-picture2 {
     background-color: var(--dark);
     /* 6px - 12px */
-    border: clamp(0.25em, 1vw, 0.25em) solid #161618;
+    border: clamp(0.2em, 1vw, 0.2em) solid #161618;
   }
   body.dark-mode #sbs-r .cs-topper {
     color: var(--primary);
@@ -527,7 +527,7 @@
   #reviews .cs-topper {
     font-size: var(--topperFontSize);
     font-family: "Merriweather-Sans";
-    line-height: 1em;
+    line-height: 1.5em;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: .05em;
@@ -578,9 +578,9 @@
     border: clamp(1px, 1vw, 1px) solid #b6b6b6;
     text-align: center;
     list-style: none;
-    width: 70%;
+    width: 95%;
     max-width: 33.875rem;
-    margin: 0 auto 2rem;
+    margin: 0 auto 1.5rem;
     /* Padding L & R - 16px - 32px */
     padding: 1rem clamp(1rem, 3.2vw, 1rem) 0;
     /* 32px - 40px */
@@ -661,7 +661,7 @@
     color: var(--bodyTextColorWhite);
   }
   body.dark-mode #reviews .cs-topper {
-    color: var(--topperLight);
+    color: var(--primary);
   }
   body.dark-mode #reviews .cs-topperone {
     color: var(--primaryShade);
