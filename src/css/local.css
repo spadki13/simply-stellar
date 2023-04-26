@@ -161,6 +161,7 @@
     flex-flow: row;
     justify-content: space-between;
     gap: 3.25rem;
+    padding-bottom: 3rem;
   }
   #sbs .cs-left {
     font-size: min(1.2vw, 1em);

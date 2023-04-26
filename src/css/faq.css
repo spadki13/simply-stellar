@@ -171,7 +171,8 @@
   #faq .cs-container {
     flex-flow: row;
     justify-content: space-around;
-    gap: 4rem;
+    gap: 3.25rem;
+    padding-bottom: 3rem;
   }
   #faq .cs-left {
     font-size: min(1.2vw, 1em);
