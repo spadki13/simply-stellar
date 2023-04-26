@@ -66,6 +66,7 @@
   }
   #sbs .cs-topper {
     font-size: var(--topperFontSize);
+    font-family: "Merriweather-Sans";
     line-height: 1em;
     text-transform: uppercase;
     text-align: left;
@@ -268,6 +269,7 @@
   }
   #sbs-r .cs-topper {
     font-size: var(--topperFontSize);
+    font-family: "Merriweather-Sans";
     line-height: 1em;
     text-transform: uppercase;
     text-align: left;
@@ -515,9 +517,8 @@
     max-width: 69rem;
     margin: auto;
     padding-top: 3rem;
-    padding-bottom: 1.5rem;
+    padding-bottom: 0em;
     border-top: 1px solid #ebebeb;
-    border-bottom: 1px solid #ebebeb;
   }
   #reviews .cs-left {
     margin: auto;
@@ -525,6 +526,7 @@
   }
   #reviews .cs-topper {
     font-size: var(--topperFontSize);
+    font-family: "Merriweather-Sans";
     line-height: 1em;
     text-transform: uppercase;
     text-align: center;
@@ -673,7 +675,7 @@
   }
   .dark-mode #reviews .cs-container {
     border-top: 1px solid var(--headerLight);
-    border-bottom: 1px solid var(--headerLight);
+    
   }
 }
 /*-- -------------------------- -->

@@ -27,6 +27,7 @@
   }
   #cs-contact .cs-topper {
     font-size: var(--topperFontSize);
+    font-family: "Merriweather-Sans";
     line-height: 1.2em;
     text-transform: uppercase;
     text-align: left;

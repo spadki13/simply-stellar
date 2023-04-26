@@ -276,6 +276,9 @@
     max-width: 82.5em;
     padding: 2.125em 1em;
     border-top: 0.25em solid var(--primary);
+    border-bottom: 1px solid var(--mainDark);;
+    border-left: 1px solid var(--mainDark);;
+    border-right: 1px solid var(--mainDark);;
     box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
     margin-bottom: 2.125em;
   }

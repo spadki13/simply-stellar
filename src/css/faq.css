@@ -3,21 +3,21 @@
 <--- -------------------------- -*/
 /* Mobile - 360px */
 @media only screen and (min-width: 0em) {
-  #sbs {
+  #faq {
     padding: clamp(2em, 1.5vw, 5em) 2rem;
   }
-  #sbs .cs-container {
+  #faq .cs-container {
     width: 100%;
     max-width: 80rem;
     margin: auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     flex-direction: column-reverse;
     overflow: hidden;
     row-gap: 2.5rem;
   }
-  #sbs .cs-left {
+  #faq .cs-left {
     /* scaling the font size with the view width */
     font-size: min(2.31vw, .7em);
     /* using ems so we can use font size to scale the whole section */
@@ -25,7 +25,7 @@
     height: 25em;
     position: relative;
   }
-  #sbs .cs-centre {
+  #faq .cs-centre {
     /* scaling the font size with the view width */
     font-size: min(2.31vw, .7em);
     /* using ems so we can use font size to scale the whole section */
@@ -33,14 +33,14 @@
     height: 39.75em;
     position: relative;
   }
-  #sbs .cs-picture {
+  #faq .cs-picture {
     border-radius: 1em;
     /* clips img tag corners */
     overflow: hidden;
     position: absolute;
     
   }
-  #sbs .cs-picture img {
+  #faq .cs-picture img {
     position: absolute;
     top: 0;
     left: 0;
@@ -50,7 +50,7 @@
     object-fit: contain;
    
   }
-  #sbs .cs-picture1 {
+  #faq .cs-picture1 {
     width: 100%;
     height: 100%;
     left: 0;
@@ -58,7 +58,7 @@
     align-items: center;
     justify-content: center;
   }
-  #sbs .cs-picture2 {
+  #faq .cs-picture2 {
     width: 25.875em;
     height: 25em;
     background-color: #fff;
@@ -68,12 +68,13 @@
     right: 0;
     bottom: 0;
   }
-  #sbs .cs-right {
-    margin: auto;
-    max-width: 40.875rem;
+  #faq .cs-right {
+    margin: 1rem;
+    max-width: 60.875rem;
   }
-  #sbs .cs-topper {
+  #faq .cs-topper {
     font-size: var(--topperFontSize);
+    font-family: "Merriweather-Sans";
     line-height: 1.2em;
     max-width: 100%;
     text-transform: uppercase;
@@ -81,10 +82,26 @@
     letter-spacing: 0.1em;
     font-weight: 700;
     color: var(--primary);
-    margin-bottom: clamp(0.5rem, 1.4vw, .75rem);
+    margin-bottom: clamp(0.75rem, 1.4vw, 1.5rem);
     display: block;
+    border-top: 1px solid #ebebeb;
+    padding-top: 3rem
   }
-  #sbs .cs-title {
+  #faq .cs-topperone {
+    font-size: var(--topperFontSize);
+    font-family: "Merriweather-Sans";
+    line-height: 1.2em;
+    max-width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: clamp(1.5em, 1.4vw, 1.5rem);
+    display: block;
+
+  }
+  #faq .cs-title {
     font-size: var(--faqFontSize);
     font-weight: 500;
     line-height: 1.5em;
@@ -94,34 +111,34 @@
     color: var(--headerColor);
     position: relative;
   }
-  #sbs .cs-text {
+  #faq .cs-text {
     font-size: var(--faqTextSize);
     line-height: 1.5em;
     text-align: left;
-    width: 90%;
-    max-width: 46.875rem;
-    margin: 0 auto;
-    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 100%;
+    padding: 0 1rem 2rem;
     color: var(--bodyTextColor);
+    opacity: .9;
   }
-  #sbs .cs-text:last-of-type {
+  #faq .cs-text:last-of-type {
     margin-bottom: 2rem;
   }
-  #sbs .cs-flex-group {
+  #faq .cs-flex-group {
     /* 16px - 32px */
     padding: clamp(1rem, 3vw, 2rem);
     background-color: #eeeeee;
     border-radius: 1rem;
     position: relative;
   }
-  #sbs .cs-flex-p {
+  #faq .cs-flex-p {
     /* 14px - 16px */
     font-size: clamp(0.875rem, 1.5vw, 1rem);
     line-height: 1.5em;
     margin: 0 0 1rem;
     color: #767676;
   }
-  #sbs .cs-name {
+  #faq .cs-name {
     font-size: 1rem;
     line-height: 1.2em;
     text-transform: uppercase;
@@ -130,13 +147,13 @@
     color: var(--headerColor);
     display: block;
   }
-  #sbs .cs-job {
+  #faq .cs-job {
     font-size: 0.875rem;
     line-height: 1.5em;
     color: #767676;
     display: block;
   }
-  #sbs .cs-quote-icon {
+  #faq .cs-quote-icon {
     /* 60px - 136px */
     width: clamp(3.75rem, 10vw, 8.5rem);
     height: auto;
@@ -145,55 +162,57 @@
     /* 16px - 32px */
     right: clamp(1rem, 4vw, 2rem);
   }
-  #sbs .button-solid {
+  #faq .button-solid {
     margin-top: 2rem;
   }
 }
 /* Desktop - 1024px */
 @media only screen and (min-width: 64em) {
-  #sbs .cs-container {
+  #faq .cs-container {
     flex-flow: row;
     justify-content: space-around;
     gap: 4rem;
   }
-  #sbs .cs-left {
+  #faq .cs-left {
     font-size: min(1.2vw, 1em);
     flex: none;
   }
-  #sbs .cs-right {
+  #faq .cs-right {
     margin: 0;
   }
 }
 /* Dark Mode */
 @media only screen and (min-width: 0em) {
-  body.dark-mode #sbs .cs-left:before,
-  body.dark-mode #sbs .cs-left:after {
+  body.dark-mode #faq .cs-left:before,
+  body.dark-mode #faq .cs-left:after {
     background: var(--accent);
   }
-  body.dark-mode #sbs .cs-picture2 {
+  body.dark-mode #faq .cs-picture2 {
     background-color: var(--dark);
     /* 6px - 12px */
     border: clamp(0.375em, 1.5vw, 0.75em) solid var(--dark);
   }
-  body.dark-mode #sbs .cs-topper {
+  body.dark-mode #faq .cs-topper {
     color: var(--primary);
   }
-
-  body.dark-mode #sbs .cs-title,
-  body.dark-mode #sbs .cs-text,
-  body.dark-mode #sbs .cs-h3,
-  body.dark-mode #sbs .cs-flex-p,
-  body.dark-mode #sbs .cs-name {
+  .dark-mode #faq .cs-topper {
+    border-top: 1px solid var(--headerLight);
+  }
+  body.dark-mode #faq .cs-title,
+  body.dark-mode #faq .cs-text,
+  body.dark-mode #faq .cs-h3,
+  body.dark-mode #faq .cs-flex-p,
+  body.dark-mode #faq .cs-name {
     color: var(--bodyTextColorWhite);
   }
-  body.dark-mode #sbs .cs-flex-group {
+  body.dark-mode #faq .cs-flex-group {
     background-color: var(--medium);
   }
-  body.dark-mode #sbs .cs-job {
+  body.dark-mode #faq .cs-job {
     color: var(--bodyTextColorWhite);
     opacity: .8;
   }
-  body.dark-mode #sbs .cs-quote-icon {
+  body.dark-mode #faq .cs-quote-icon {
     opacity: .2;
   }
 }
