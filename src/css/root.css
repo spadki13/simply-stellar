@@ -458,7 +458,7 @@
     background-color: #ffffff;
     width: 100%;
     height: 100%;
-    box-shadow: rgba(0, 0, 0, 0.644) 0px 0px 20px 20px;
+    box-shadow: rgba(131, 131, 131, 0.492) 0px 0px 20px 10px;
   }
 
   #navigation .container {
@@ -641,9 +641,14 @@
   }
 
   #navigation #navbar-menu.open {
-    height: 15.25rem;
-    padding-top: 2rem;
+    height: auto;
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
     z-index: -100;
+    border-bottom: 1px solid #626262;
+    border-right: 1px solid #626262;
+    border-left: 1px solid #626262;
+    font-size: 0.8rem;
   }
 
   #navigation #navbar-menu.open ul li {
@@ -758,8 +763,9 @@
     text-decoration: none;
     font-weight: 500;
     /* 14px - 18px */
-    font-size: clamp(0.875rem, 1.5vw, 1.125rem);
+    font-size: clamp(0.9rem, 1.5vw, 1rem);
     text-transform: none;
+    margin-inline-end: .5rem;
     position: relative;
     z-index: 1;
     color: #fff;
@@ -770,15 +776,15 @@
     content: '';
     position: absolute;
     display: block;
-    height: 0.175rem;
-    border-radius: 0.1875rem;
-    background: var(--primary);
+    height: 0.15rem;
+    border-radius: 0.15rem;
+    background: var(--topperLight);
     opacity: 1;
     bottom: -0.25rem;
     z-index: -1;
     left: 0;
     width: 0%;
-    transition: width .25s;
+    transition: width .3s;
   }
 
   #navigation #navbar-menu ul li a:hover:before {
@@ -790,8 +796,8 @@
     position: absolute;
     display: block;
     width: 100%;
-    height: 0.175rem;
-    background: var(--primary);
+    height: 0.15rem;
+    background: var(--topperLight);
     opacity: 1;
     bottom: -0.25rem;
     left: 0rem;
@@ -845,7 +851,7 @@
   }
 
   body.dark-mode #navigation #navbar-menu ul li a.active {
-    color: var(--primary);
+    color: var(--topperLight);
   }
 }
 
@@ -889,7 +895,8 @@
     position: relative;
     z-index: 1;
     min-height: 16vh;
-    padding-top: 6rem;
+    padding-top: 5.75rem;
+    padding-bottom: 1.5rem;
   }
 
   #int-hero:before {

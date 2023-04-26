@@ -4,7 +4,7 @@
 /* Mobile - 360px */
 @media only screen and (min-width: 0em) {
     #pricing {
-      padding: clamp(2em, 1.5vw, 5em) 2rem;
+      padding: clamp(2em, 1.5vw, 2em) 2rem;
     }
     #pricing .cs-container {
       width: 100%;
@@ -16,6 +16,7 @@
       overflow: hidden;
       row-gap: 2.5rem;
       flex-direction: column;
+      padding-bottom: 3rem;
     }
 
     #pricing .cs-left {
@@ -25,9 +26,6 @@
       width: 32.4375em;
       height: 32.4375em;
       position: relative;
-      
-    
-     
     }
     #pricing .cs-picture {
       /* clips img tag corners */
@@ -52,7 +50,7 @@
       top: 0;
       align-items: center;
       justify-content: center;
-      border-radius: 0.5em;
+      border-radius: 0em;
       background-color: inherit;
     }
     #pricing .cs-picture2 {
