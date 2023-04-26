@@ -71,7 +71,7 @@
     text-transform: uppercase;
     text-align: left;
     letter-spacing: .1em;
-    font-weight: 700;
+    font-weight: 500;
     color: var(--primary);
     display: block;
   }
@@ -532,7 +532,7 @@
     text-transform: uppercase;
     text-align: center;
     letter-spacing: .05em;
-    font-weight: 700;
+    font-weight: 500;
     color: var(--headerLight);
     margin-bottom: clamp(2rem, 1.4vw, 2rem);
     display: block;
