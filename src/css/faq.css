@@ -24,7 +24,7 @@
     font-family: "Merriweather-Sans";
     line-height: 1.2em;
     text-transform: uppercase;
-    text-align: center;
+    text-align: left;
     letter-spacing: .1em;
     font-weight: 500;
     color: var(--primary);
@@ -38,7 +38,7 @@
     font-family: "Merriweather-Sans";
     line-height: 1.2em;
     text-transform: uppercase;
-    text-align: center;
+    text-align: left;
     letter-spacing: .1em;
     font-weight: 500;
     color: var(--primary);
@@ -48,7 +48,7 @@
   #faq .cs-title {
     font-size: var(--faqFontSize);
     font-weight: 500;
-    line-height: 1.3em;
+    line-height: 1.2em;
     text-align: left;
     width: 100%;
     max-width: 50rem;
@@ -62,7 +62,7 @@
     text-align: left;
     width: 100%;
     max-width: 46.875rem;
-    padding: 0 0.5rem 2rem;
+    padding: 0 0 1rem;
     color: var(--bodyTextColor);
     opacity: .9;
   }
