@@ -48,11 +48,11 @@
   #faq .cs-title {
     font-size: var(--faqFontSize);
     font-weight: 500;
-    line-height: 1.2em;
+    line-height: 1.3em;
     text-align: left;
     width: 100%;
     max-width: 50rem;
-    margin: 0 auto 0.8rem;
+    margin: 0 auto 0.5rem;
     color: var(--headerColor);
     position: relative;
   }
@@ -62,7 +62,7 @@
     text-align: left;
     width: 100%;
     max-width: 46.875rem;
-    padding: 0 0 1rem;
+    padding: 0 0 1.5rem;
     color: var(--bodyTextColor);
     opacity: .9;
   }

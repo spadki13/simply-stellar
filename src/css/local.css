@@ -71,6 +71,7 @@
     text-transform: uppercase;
     text-align: left;
     letter-spacing: .1em;
+    margin-bottom: clamp(0.5em, 1.4vw, 0.75rem);
     font-weight: 500;
     color: var(--primary);
     display: block;
@@ -78,10 +79,10 @@
   #sbs .cs-title {
     font-size: var(--headerFontSize);
     font-weight: 500;
-    line-height: 1.2em;
+    line-height: 1.3em;
     text-align: left;
     max-width: 50rem;
-    margin: .8rem auto .8rem;
+    margin: 0 auto .5rem;
     color: var(--headerColor);
     position: relative;
   }
@@ -92,7 +93,6 @@
     width: 100%;
     max-width: 46.875rem;
     margin: 0 auto;
-    margin-bottom: 1rem;
     color: var(--bodyTextColor);
     text-decoration: none;
   }
@@ -128,10 +128,10 @@
     content:'”';
   }
     #sbs .cs-name {
-    font-size: 1rem;
+    font-size: var(--faqTextSize);
+    font-family: "Merriweather-Sans";
     line-height: 1.2em;
     text-transform: uppercase;
-    font-weight: bold;
     margin: 0 0 0.25rem;
     color: var(--headerColor);
     display: block;
@@ -391,120 +391,7 @@
   }
 }
 /*-- -------------------------- -->
-<---          Gallery           -->
-<--- -------------------------- -*/
-/* Mobile - 360px - Contains hover animation */
-@media only screen and (min-width: 0em) {
-  #gallery {
-    /* Centers button */
-    text-align: center;
-    padding: var(--sectionPadding);
-    position: relative;
-    /* Prevents overflow from the image going off screen */
-    overflow: hidden;
-  }
-  #gallery .cs-container {
-    width: 100%;
-    max-width: 82.625em;
-    margin: auto;
-  }
-  #gallery .cs-topper {
-    font-size: var(--topperFontSize);
-    line-height: 1em;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: .1em;
-    font-weight: 500;
-    color: var(--primary);
-    display: block;
-  }
-  #gallery .cs-title {
-    font-size: var(--headerFontSize);
-    font-weight: 500;
-    line-height: 1.2em;
-    text-align: center;
-    max-width: 38.8125rem;
-    margin: 0 auto;
-    margin-bottom: 2.5rem;
-    color: var(--headerColor);
-    position: relative;
-  }
-  #gallery .cs-image-group {
-    /* used rem so it doesn't scale with the font size of on parent */
-    font-size: min(1.1vw, 1em);
-    width: 100%;
-    max-width: 82.625em;
-    padding: 0;
-    margin: 0 auto 3.75rem;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 1.875em;
-  }
-  #gallery .cs-row {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 1.875em;
-  }
-  #gallery .cs-picture {
-    position: relative;
-    display: block;
-  }
-  #gallery .cs-picture img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
-  #gallery .cs-row-1 .cs-picture-1 {
-    width: 26.25em;
-    height: 35.4375em;
-  }
-  #gallery .cs-row-1 .cs-picture-2 {
-    width: 26.25em;
-    height: 39.3125em;
-  }
-  #gallery .cs-row-1 .cs-picture-3 {
-    width: 26.25em;
-    height: 32em;
-  }
-  #gallery .cs-row-2 .cs-picture-1 {
-    width: 26.25em;
-    height: 30.75em;
-  }
-  #gallery .cs-row-2 .cs-picture-2 {
-    width: 26.25em;
-    height: 32.3125em;
-  }
-  #gallery .cs-row-2 .cs-picture-3 {
-    width: 26.25em;
-    height: 39.3125em;
-  }
-  #gallery .cs-row-3 .cs-picture-1 {
-    width: 26.25em;
-    height: 39.0625em;
-  }
-  #gallery .cs-row-3 .cs-picture-2 {
-    width: 26.25em;
-    height: 28.25em;
-  }
-  #gallery .cs-row-3 .cs-picture-3 {
-    width: 26.25em;
-    height: 39.3125em;
-  }
-}
-/* Dark mode */
-@media only screen and (min-width: 0em) {
-  body.dark-mode #gallery .cs-title {
-    color: var(--bodyTextColorWhite);
-  }
-}
-/*-- -------------------------- -->
-<---          Reviews           -->
+<---          Services           -->
 <--- -------------------------- -*/
 /* Mobile - 360px */
 @media only screen and (min-width: 0em) {
@@ -546,6 +433,7 @@
     font-weight: 500;
     color: var(--headerColor);
     display: block;
+    opacity: 0.9;
   }
   #reviews .cs-title {
     font-size: var(--headerFontSize);
