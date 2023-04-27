@@ -19,7 +19,7 @@
     --topperFontSize: clamp(0.8rem, 1vw, 0.8rem);
     --topperFontLarge: clamp(1.1rem, 1vw, 1.1rem);
     --headerFontSize: clamp(1.3rem, 3vw, 1.3rem);
-    --faqFontSize: clamp(1.2rem, 2.5vw, 1.2rem);
+    --faqFontSize: clamp(1.2rem, 2.5vw, 1.3rem);
     --faqTextSize: clamp(1rem, 2vw, 1rem);
     --sectionPadding: clamp(3em, 7vw, 3em) 3rem;
     --bodyFontSize: clamp(.9rem, 3vw, 1rem);
