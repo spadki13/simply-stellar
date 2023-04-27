@@ -20,7 +20,7 @@
     --topperFontLarge: clamp(1.1rem, 1vw, 1.1rem);
     --headerFontSize: clamp(1.5rem, 3vw, 1.6rem);
     --faqFontSize: clamp(1.3rem, 2.5vw, 1.3rem);
-    --faqTextSize: clamp(1em, 2vw, 1rem);
+    --faqTextSize: clamp(1rem, 2vw, 1rem);
     --sectionPadding: clamp(3em, 7vw, 3em) 3rem;
     --bodyFontSize: clamp(.9rem, 3vw, 1rem);
   }
