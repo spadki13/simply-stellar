@@ -104,6 +104,32 @@
     margin-bottom: 1rem;
     color: var(--bodyTextColor);
   }
+  #sbs .cs-textone {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: left;
+    width: 100%;
+    max-width: 46.875rem;
+    margin: 0 auto;
+    margin-bottom: 0.75rem;
+    color: var(--bodyTextColor);
+  }
+  #sbs .cs-text a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid var(--bodyTextColorWhite);
+  }
+  #sbs .cs-text a::after {
+    color: inherit;
+    text-decoration: none;
+  }
+  #sbs .cs-text a:hover{
+    border-bottom: 1px solid var(--primary);
+  }
+  #sbs .list {
+    font-family: "Merriweather";
+    font-weight: 500;
+  }
   #sbs .cs-text:last-of-type {
     margin-bottom: 2rem;
   }
@@ -178,6 +204,10 @@
   body.dark-mode #sbs .cs-topper {
     color: var(--primary);
   }
+  #sbs .cs-text a {
+    border-bottom: 1px solid var(--accent);
+  }
+
 
   body.dark-mode #sbs .cs-title,
   body.dark-mode #sbs .cs-text,
