@@ -27,13 +27,11 @@
     left: 0;
     z-index: -2;
   }
-  .star {
+  #hero .star {
     position: absolute;
-    width: 3%;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     animation: twinkle 2s ease-in-out infinite;
-    max-width: 100%;
-    height: auto;
   }
   @keyframes twinkle {
     0% {
