@@ -35,7 +35,7 @@
     letter-spacing: .1em;
     color: var(--primary);
     /* 8px - 12px */
-    margin-bottom: clamp(0.5rem, 1.4vw, .75rem);
+    margin-bottom: clamp(0.5rem, 1.4vw, 0.75rem);
     display: block;
   }
   #cs-contact .cs-title {
