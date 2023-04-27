@@ -107,14 +107,14 @@
   #sbs .cs-flex-group {
     /* 16px - 32px */
     border: clamp(1px, 1vw, 1px) solid #7777775e;
-    padding: clamp(2rem, 3vw, 2rem);
+    padding: clamp(1.75rem, 3vw, 1.75rem);
     background-color: #f8f8f8;
     border-radius: .5em;
     position: relative;
   }
   #sbs .cs-flex-p {
     /* 14px - 16px */
-    font-size: clamp(0.9rem, 1.5vw, 0.9rem);
+    font-size: clamp(0.8rem, 1.5vw, 0.9rem);
     line-height: 1.5em;
     margin: 0 0 1rem;
     color: #2e2d2d;
@@ -468,7 +468,7 @@
     border: clamp(1px, 1vw, 1px) solid #b6b6b6;
     text-align: center;
     list-style: none;
-    width: 95%;
+    width: 100%;
     max-width: 33.875rem;
     margin: 0 auto 1.5rem;
     /* Padding L & R - 16px - 32px */
