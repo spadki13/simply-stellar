@@ -5,12 +5,11 @@ metaTitle: "Title that shows up on google searches"
 tagTitle: "Contact"
 preloadImg: "/images/background11-1920w.webp"
 preloadCSS: "/css/enquiries.css"
-permalink: "medium/"
-
+permalink: "consultation/"
 ---
 
 <section id="int-hero">
-  <h1 id="home-h">Ready for some growth?</h1>
+  <h1 id="home-h">We're excited to talk!</h1>
   {% image './src/images/background11.png', 'cabinets', '', 'lazy', '(max-width:
   400px) 400px, (max-width: 850px) 850px, 1920px'%}
 </section>
@@ -19,9 +18,9 @@ permalink: "medium/"
   <div class="cs-container">
     <form id="cs-form" name="Contact Form" method="post" data-netlify="true" action="/success">
       <div class="cs-content">
-        <h2 class="cs-title">Thanks for taking the time to reach out.</h2>
+        <h2 class="cs-title">We love helping businesses grow.</h2>
         <p class="cs-text">
-          We're excited to discuss how Simply Stellar can help your business grow.
+         Let's talk about your business and see if we've got any ideas to help you out.
         </p>
       </div>
       <label>
@@ -30,8 +29,14 @@ permalink: "medium/"
       <label>
         <input required type="text" id="email" name="email" placeholder="Your email" />
       </label>
+      <label>
+        <input required type="text" id="phone" name="phone" placeholder="Best contact number" />
+      </label>
+      <label>
+        <input type="text" id="find" name="find-us" placeholder="Business name" />
+      </label>
       <label class="cs-label-message">
-        <textarea required name="Message" id="message" placeholder="Some info about your business and what you'd like to achieve working together"></textarea>
+        <textarea required name="Message" id="message" placeholder="Any extra info you'd like to share: (e.g. pain-points, plans, goals)"></textarea>
       </label>
       <button class="cs-button-solid" type="submit">Submit Message</button>
     </form>

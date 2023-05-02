@@ -170,7 +170,7 @@
     cursor: pointer;
   }
 
-  #reviews a:hover {
+  #collaborate a:hover {
     text-decoration: underline;
     text-decoration-color: var(--primary);
   }

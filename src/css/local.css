@@ -391,17 +391,15 @@
     opacity: .2;
   }
 }
-/*-- -------------------------- -->
-<---          Services           -->
-<--- -------------------------- -*/
+
 /* Mobile - 360px */
 @media only screen and (min-width: 0em) {
-  #reviews {
+  #collaborate {
     /* Centers the button */
     text-align: center;
     padding: var(--sectionPadding);
   }
-  #reviews .cs-container {
+  #collaborate .cs-container {
     width: 100%;
     max-width: 69rem;
     margin: auto;
@@ -409,23 +407,11 @@
     padding-bottom: 0em;
     border-top: 1px solid #ebebeb;
   }
-  #reviews .cs-left {
+  #collaborate .cs-left {
     margin: auto;
     max-width: 33.875rem;
   }
-  #reviews .cs-topper {
-    font-size: var(--topperFontSize);
-    font-family: "Merriweather-Sans";
-    line-height: 1.2em;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: .1em;
-    font-weight: 500;
-    color: var(--headerLight);
-    margin-bottom: clamp(2rem, 1.4vw, 2rem);
-    display: block;
-  }
-  #reviews .cs-topperone {
+  #collaborate .cs-topperone {
     font-size: var(--topperFontSize);
     font-family: "Merriweather-Sans";
     text-transform: uppercase;
@@ -439,43 +425,30 @@
     padding-bottom: 1rem;
     text-decoration: none;
   }
-  #reviews .cs-topperone::after {
+  #collaborate .cs-topperone::after {
     text-decoration: none;
   }
-  #reviews .cs-title {
+  #collaborate .cs-title {
     font-size: var(--headerFontSize);
     font-weight: 500;
     line-height: 1.2em;
     text-align: center;
     max-width: 43.75rem;
-    margin: .8rem auto .8rem;
+    margin: 1.5rem auto 2rem;
     color: var(--headerColor);
     position: relative;
   }
-  #reviews .cs-text {
-    font-size: var(--bodyFontSize);
-    line-height: 1.4rem;
-    text-align: center;
-    width: 100%;
-    max-width: 40.625rem;
-    margin: 0 auto;
-    /* 88px - 104px */
-    margin-bottom: clamp(.8em, 8vw, .8em);
-    color: var(--bodyTextColor);
-  }
-  #reviews .cs-card-group {
+  #collaborate .cs-card-group {
     padding: 0;
     margin: 0 auto clamp(3rem, 5vw, 2rem);
   }
-  #reviews .cs-item {
+  #collaborate .cs-item {
     border: clamp(1px, 1vw, 1px) solid #b6b6b6;
     text-align: center;
     list-style: none;
     width: 100%;
     max-width: 33.875rem;
     margin: 0 auto 1.5rem;
-    /* Padding L & R - 16px - 32px */
-
     box-shadow: 5px 5px 20px 5px rgba(22, 22, 24, 0.1);
     border-radius: 0.5em;
     background: #fffefe;
@@ -484,19 +457,18 @@
     overflow: hidden;
     flex-wrap: wrap;
     align-items: center;
-    /* Prevents padding from affecting height & width */
     box-sizing: border-box;
   }
-  #reviews .cs-item:last-of-type {
+  #collaborate .cs-item:last-of-type {
     margin-bottom: 0;
   }
-  #reviews .cs-item-img {
+  #collaborate .cs-item-img {
     width: 5rem;
     height: 5rem;
     position: absolute;
     top: -2.5rem;
   }
-  #reviews .cs-item-p {
+  #collaborate .cs-item-p {
     font-size: .9rem;
     line-height: 1.5em;
     color: var(--bodyTextColor);
@@ -504,41 +476,19 @@
     padding-bottom: clamp(1rem, 5.4vw, 1rem);
     text-decoration: none;
   }
-  #reviews .cs-item-p::after {
+  #collaborate .cs-item-p::after {
     text-decoration: none;
-  }
-  #reviews .cs-reviewer {
-    font-size: 1rem;
-    line-height: 1.5em;
-    font-weight: 700;
-    width: 100%;
-    margin: 0 auto 0 0;
-    display: flex;
-    color: var(--headerColor);
-    text-align: center;
-    justify-content: center;
-  }
-  #reviews .cs-desc {
-    font-size: 0.875rem;
-    font-weight: 400;
-    color: var(--label);
-    display: block;
-  }
-  #reviews .cs-item-stars {
-    width: 6rem;
-    height: 1rem;
   }
 }
 
-/* Tablet - 768px */
 @media only screen and (min-width: 48em) {
-  #reviews .cs-card-group {
+  #collaborate .cs-card-group {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 1rem;
   }
-  #reviews .cs-item {
+  #collaborate .cs-item {
     /* reset margin so it won't interfere with flexbox */
     margin: 0;
     border: clamp(1px, 1vw, 1px) solid var(--hoverLink)
@@ -546,147 +496,21 @@
 }
 /* Dark Mode */
 @media only screen and (min-width: 0em) {
-  body.dark-mode #reviews .cs-title,
-  body.dark-mode #reviews .cs-text,
-  body.dark-mode #reviews .cs-item-p,
-  body.dark-mode #reviews .cs-topperone,
-  body.dark-mode #reviews .cs-reviewer
+  body.dark-mode #collaborate .cs-title,
+  body.dark-mode #collaborate .cs-item-p,
+  body.dark-mode #collaborate .cs-topperone
    {
     color: var(--bodyTextColorWhite);
   }
-  body.dark-mode #reviews .cs-topper {
-    color: var(--primary);
-  }
-  body.dark-mode #reviews .cs-topperone {
+  body.dark-mode #collaborate .cs-topperone {
     color: var(--primaryShade);
   }
-  body.dark-mode #reviews .cs-item {
+  body.dark-mode #collaborate .cs-item {
     background: var(--medium);
     border: clamp(1px, 1vw, 1px) solid var(--headerLight)
   }
-  body.dark-mode #reviews .cs-desc {
-    color: var(--primaryLight);
-  }
-  .dark-mode #reviews .cs-container {
+  .dark-mode #collaborate .cs-container {
     border-top: 1px solid var(--headerLight);
     
-  }
-}
-/*-- -------------------------- -->
-<---    Final Call To Action    -->
-<--- -------------------------- -*/
-/* Mobile */
-@media only screen and (min-width: 0em) {
-  #cta {
-    position: relative;
-  }
-  #cta:before {
-    content: '';
-    position: absolute;
-    display: block;
-    height: 100%;
-    width: 100%;
-    background: #000;
-    opacity: 0;
-    top: 0;
-    left: 0;
-    z-index: -1;
-  }
-  #cta .container {
-    text-align: center;
-    padding-bottom: 2rem;
-  }
-  #cta picture {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    z-index: -2;
-  }
-  #cta picture img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
-  #cta .title {
-    font-weight: 500;
-    font-size: min(5vw, 2rem);
-    line-height: 1.20833333;
-    color: #fff;
-    position: relative;
-    margin-bottom: 0rem;
-    text-align: center;
-    padding-top: 3rem;
-    padding-bottom: .5rem;
-  }
-  #cta p {
-    color: #fff;
-    text-align: center;
-    opacity: 1;
-    margin: auto;
-    margin-bottom: 2.25rem;
-    line-height: 1.4;
-    width: 96%;
-    max-width: 37.375rem;
-  }
-}
-/* Small Desktop */
-@media only screen and (min-width: 64em) {
-  #cta {
-    padding: 2rem 0;
-  }
-}
-/* Large Desktop */
-@media only screen and (min-width: 1300px) {
-  #cta {
-    position: relative;
-  }
-  #cta:before {
-    display: none;
-  }
-  #cta:after {
-    content: '';
-    position: absolute;
-    display: block;
-    height: 69.25rem;
-    width: 125rem;
-    background: url("/assets/svgs/cta-squares.svg");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    opacity: 1;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: -3;
-  }
-  #cta .container {
-    width: 90.0625%;
-    margin: auto;
-  }
-  #cta picture {
-    width: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  #cta picture:before {
-    content: '';
-    position: absolute;
-    display: block;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1;
-  }
-}
-/* Dark Mode */
-@media only screen and (min-width: 0em) {
-  body.dark-mode #cta:after {
-    display: none;
   }
 }
