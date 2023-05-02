@@ -435,6 +435,12 @@
     color: var(--headerColor);
     display: block;
     opacity: 0.9;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-decoration: none;
+  }
+  #reviews .cs-topperone::after {
+    text-decoration: none;
   }
   #reviews .cs-title {
     font-size: var(--headerFontSize);
@@ -459,9 +465,6 @@
   }
   #reviews .cs-card-group {
     padding: 0;
-    padding-left: 5%;
-    padding-right: 5%;
-    /* 48px - 64px */
     margin: 0 auto clamp(3rem, 5vw, 2rem);
   }
   #reviews .cs-item {
@@ -472,9 +475,7 @@
     max-width: 33.875rem;
     margin: 0 auto 1.5rem;
     /* Padding L & R - 16px - 32px */
-    padding: 1rem clamp(2rem, 3.2vw, 2rem) 0;
-    /* 32px - 40px */
-    padding-bottom: clamp(1rem, 5.4vw, 1rem);
+
     box-shadow: 5px 5px 20px 5px rgba(22, 22, 24, 0.1);
     border-radius: 0.5em;
     background: #fffefe;
@@ -498,10 +499,13 @@
   #reviews .cs-item-p {
     font-size: .9rem;
     line-height: 1.5em;
-    margin: 0 0 0rem;
-    padding-bottom: 0.5rem;
-    padding-top: 0.5rem;
     color: var(--bodyTextColor);
+    padding: 1rem clamp(2rem, 3.2vw, 2rem) 0;
+    padding-bottom: clamp(1rem, 5.4vw, 1rem);
+    text-decoration: none;
+  }
+  #reviews .cs-item-p::after {
+    text-decoration: none;
   }
   #reviews .cs-reviewer {
     font-size: 1rem;
@@ -530,9 +534,9 @@
 @media only screen and (min-width: 48em) {
   #reviews .cs-card-group {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1rem;
   }
   #reviews .cs-item {
     /* reset margin so it won't interfere with flexbox */

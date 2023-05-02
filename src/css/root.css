@@ -157,8 +157,9 @@
     font-size: .95rem;
     line-height: 1.2em;
     margin: 0;
+    text-decoration: none;
   }
-
+}
   p,
   li {
     color: #181717;
@@ -167,7 +168,10 @@
   a:hover,
   button:hover {
     cursor: pointer;
+  }
 
+  #reviews a:hover {
+    text-decoration: underline;
   }
 
   .button-solid {
@@ -414,7 +418,6 @@
     -webkit-transform: translateY(-8px);
     transform: translateY(-8px);
   }
-}
 
 /* Reset Margins */
 @media only screen and (min-width: 1024px) {
