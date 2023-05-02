@@ -7,7 +7,7 @@
     --topperFontSize: clamp(0.9rem, 1vw, 0.9rem);
     --headerFontSize: clamp(1.5rem, 3vw, 1.6rem);
     --bodyFontSize: 1rem;
-    --sectionPadding: clamp(1em, 1.5vw, 3em) 1rem;
+    --sectionPadding: clamp(2em, 1.5vw, 3em) 2rem;
   }
   #cs-contact {
     font-family: 'Merriweather-Sans-Light', 'Inter', 'Roboto';
