@@ -1,7 +1,7 @@
 /* Mobile - 360px */
 @media only screen and (min-width: 0em) {
   #faq {
-    padding: clamp(2em, 1.5vw, 2em) 2rem;
+    padding: clamp(2em, 1.5vw, 3em) 2rem;
   }
   #faq .cs-container {
     width: 100%;
