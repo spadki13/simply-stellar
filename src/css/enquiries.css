@@ -272,8 +272,8 @@
     justify-content: center;
     align-items: flex-start;
     gap: 5rem;
-    padding-bottom: 3rem;
-    padding-top: 3rem;
+    padding-bottom: 2.5rem;
+    padding-top: 2rem;
   }
   #cs-contact #cs-form {
     max-width: 39.375rem;
