@@ -234,7 +234,7 @@
     margin: auto;
     width: 80vw;
     /* 464px - 562px */
-    max-width: clamp(29em, 60vw, 35.125em);
+    max-width: clamp(60em, 60vw, 60em);
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -244,27 +244,36 @@
   #hero .cs-topper {
     /* 13px - 16px */
     font-family: 'Merriweather-Sans';
-    font-size: clamp(.9rem, 1vw, .9rem);
+    font-size: clamp(0.8rem, 1vw, 1.2rem);
     line-height: 1.5em;
     text-transform: uppercase;
     text-align: center;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.25em;
     font-weight: 500;
     color: var(--primary);
     display: block;
     padding-bottom: 1.75rem;
+    background-image: linear-gradient(90deg, #ffce85, #ffb648);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    background-color: #ffffff;
   }
   #hero .cs-title {
     /* 39px - 61px */
-    font-size: clamp(2.75rem, 6vw, 4rem);
+    font-size: clamp(2.7rem, 6vw, 4.7rem);
     font-weight: 500;
     line-height: 1.2em;
     text-align: center;
     width: 100%;
     /* 32px - 40px */
-    margin: 0 auto clamp(1rem, 3vw, 1rem) 0;
+    margin: 0 auto clamp(1.2rem, 3vw, 1.3rem) 0;
     color: var(--bodyTextColorWhite);
     position: relative;
+   
   }
   #hero .cs-text {
     /* 16px - 20px */
@@ -360,7 +369,7 @@
     margin-right: 0.75rem;
   }
   #hero .cs-hero-button {
-    padding-top: .75rem;
+    padding-top: 1rem;
     column-gap: 1.5rem;
     display: flex;
     justify-content: center;

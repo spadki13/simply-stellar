@@ -193,9 +193,9 @@
 
   #collaborate a:hover {
     text-decoration: underline;
+    transition: .5s;
     text-decoration-color: var(--primary);
   }
-
   .button-solid {
     font-family: "Merriweather-Sans";
     font-size: .8rem;
@@ -217,7 +217,6 @@
     border-radius: .5em;
     border: 1px solid #16161827;
     box-shadow: rgba(0, 0, 0) 2px 2px 2px 0px;
-
   }
 
   .button-hero {
