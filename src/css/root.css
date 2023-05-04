@@ -938,7 +938,7 @@
 
   #int-hero h1 {
     color: #fff;
-    font-size: 2rem;
+    font-size: 1.75rem;
     text-align: center;
     margin: 0 auto;
     position: relative;
@@ -973,8 +973,8 @@
   #int-hero {
     min-height: 13.75rem;
     height: auto;
-    padding-top: 9.25rem;
-    padding-block-end: 2rem;
+    padding-top: 10.25rem;
+    padding-block-end: 1rem;
     background-attachment: fixed;
     font-size: inherit;
   }

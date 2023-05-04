@@ -14,23 +14,25 @@
       justify-content: center;
       align-items: center;
       overflow: hidden;
-      row-gap: 2.5rem;
-      flex-direction: column;
-      padding-bottom: 3rem;
+      row-gap: 1rem;
+      flex-direction: column-reverse;
+      padding-bottom: 2rem;
     }
 
     #pricing .cs-left {
       /* scaling the font size with the view width */
       font-size: min(2.31vw, .7em);
       /* using ems so we can use font size to scale the whole section */
-      width: 32.4375em;
-      height: 32.4375em;
+      width: 35em;
+      height: 35em;
       position: relative;
     }
     #pricing .cs-picture {
       /* clips img tag corners */
       overflow: hidden;
       position: absolute;
+      width: 100%;
+      height: 100%;
       
     }
     #pricing .cs-picture img {
@@ -50,18 +52,7 @@
       top: 0;
       align-items: center;
       justify-content: center;
-      border-radius: 0em;
       background-color: inherit;
-    }
-    #pricing .cs-picture2 {
-      width: 25.875em;
-      height: 25em;
-      background-color: #fff;
-      box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 40px;
-      /* 6px - 12px */
-      border: clamp(0.375em, 1.5vw, 0.75em) solid #ffffff;
-      right: 0;
-      bottom: 0;
     }
     #pricing .cs-right {
       margin: auto;
@@ -125,21 +116,6 @@
       color: var(--headerColor);
       display: block;
     }
-    #pricing .cs-job {
-      font-size: 0.875rem;
-      line-height: 1.5em;
-      color: #767676;
-      display: block;
-    }
-    #pricing .cs-quote-icon {
-      /* 60px - 136px */
-      width: clamp(3.75rem, 10vw, 8.5rem);
-      height: auto;
-      position: absolute;
-      bottom: 0rem;
-      /* 16px - 32px */
-      right: clamp(1rem, 4vw, 2rem);
-    }
     #pricing .button-solid {
       margin-top: 1rem;
       border: 1px solid #16161827;
@@ -150,11 +126,11 @@
     #pricing .cs-container {
       flex-flow: row;
       justify-content: space-around;
-      gap: 4rem;
+      gap: 3rem;
       padding-bottom: 3rem;
     }
     #pricing .cs-left {
-      font-size: min(1.2vw, 1em);
+      font-size: min(1vw, 0.9em);
       flex: none;
     }
     #pricing .cs-right {
