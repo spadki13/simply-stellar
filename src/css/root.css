@@ -901,6 +901,7 @@
     z-index: 1;
     min-height: 18vh;
     padding-top: 5.75rem;
+    padding-bottom: 1rem;
   }
 
   #int-hero:before {
