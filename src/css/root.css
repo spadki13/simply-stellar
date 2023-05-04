@@ -899,9 +899,8 @@
     flex-direction: column;
     position: relative;
     z-index: 1;
-    min-height: 10vh;
-    padding-top: 7.25rem;
-    padding-bottom: 0.5rem;
+    min-height: 18vh;
+    padding-top: 5.75rem;
   }
 
   #int-hero:before {
