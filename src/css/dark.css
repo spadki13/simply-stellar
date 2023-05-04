@@ -4,9 +4,9 @@
 /* Mobile */
 @media only screen and (min-width: 0em) {
   :root {
-    --black: #161618;
-    --dark: #161618 ;
-    --medium: #222224;
+    --black: #0f0f0f;
+    --dark: #131313 ;
+    --medium: #171717;
     --accent: #d0d0d1;
   }
   body.dark-mode {
@@ -70,14 +70,14 @@
   }
   #dark-mode-toggle .moon {
     z-index: 2;
-    transition: transform .3s, opacity .3s, fill .3s;
+    transition: transform .5s, opacity .5s, fill 2s;
     fill: #000;
   }
   #dark-mode-toggle .sun {
     z-index: 1;
     transform: translate(-50%, 100%);
     opacity: 0;
-    transition: transform .3s, opacity .3s;
+    transition: transform .5s, opacity .5s;
   }
 }
 /* Desktop */
@@ -91,6 +91,6 @@
     margin-bottom: 0rem;
   }
   #dark-mode-toggle .moon {
-    fill: #fff;
+    fill: #fdfafa;
   }
 }

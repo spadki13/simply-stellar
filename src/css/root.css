@@ -6,15 +6,16 @@
   :root {
     --primary: #e49b2e;
     --primaryButton: #ffb648;
+    --primarySVG: #f4a42d;
     --topperLight: #fabf67;
-    --hoverLink: #aaaaaa;
+    --hoverLink: #868585;
     --primaryShade: #faf9f5;
     --primaryDark: #bd7e21;
     --bodyTextColor: #000000;
     --bodyTextColorWhite: #f2f5f8;
     --mainDark: #161618;
     --headerColor: #1a1a1a;
-    --headerLight: #353535;
+    --headerLight: #7878781d;
     --topperOne: #0C2340;
     --topperFontSize: clamp(0.8rem, 1vw, 0.8rem);
     --topperFontLarge: clamp(1.1rem, 1vw, 1.1rem);
@@ -99,6 +100,26 @@
     src: local(''), url('/assets/fonts/Inter-Regular.woff') format('woff'),
       /* Chrome 26+, Opera 23+, Firefox 39+ */
       url('/assets/fonts/Inter-Regular.woff') format('woff');
+
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  @font-face {
+    font-family: 'Eurostile';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''), url('/assets/fonts/Eurostile.ttf') format('ttf'),
+      /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('/assets/fonts/Eurostile.ttf') format('ttf');
+
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  @font-face {
+    font-family: 'Sintony';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''), url('/assets/fonts/Sintony.ttf') format('ttf'),
+      /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('/assets/fonts/Sintony.ttf') format('ttf');
 
     /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
@@ -195,6 +216,7 @@
     transition-delay: .1s;
     border-radius: .5em;
     border: 1px solid #16161827;
+    box-shadow: rgba(0, 0, 0) 2px 2px 2px 0px;
 
   }
 
@@ -219,6 +241,7 @@
     color: #000;
     transition: color .5s;
     transition-delay: .1s;
+    box-shadow: rgba(0, 0, 0) 2px 2px 2px 0px;
   }
 
   .button-hero:hover {
@@ -353,13 +376,14 @@
     transition-property: transform;
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
+    box-shadow: rgba(0, 0, 0) 1px 1px 1px 0px;
   }
   .cs-item {
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    box-shadow: rgba(0, 0, 0, 1) 2px 2px 6px 0px;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
     -webkit-transition-property: transform;
@@ -385,13 +409,13 @@
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
     -webkit-transition-property: transform;
     transition-property: transform;
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
+    box-shadow: rgba(0, 0, 0) 1px 1px 1px 0px;
   }
 
   .button-hero:hover,
@@ -464,7 +488,7 @@
     background-color: #ffffff;
     width: 100%;
     height: 100%;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 30px 10px;
+    box-shadow: rgba(0, 0, 0, 0.20) 0px 0px 30px 10px;
   }
 
   #navigation .container {
@@ -687,7 +711,7 @@
 
   body.scroll #navigation .background-color-div {
     height: 100%;
-    box-shadow: rgba(131, 131, 131, 0.492) 0px 0px 20px 10px;
+    box-shadow: rgba(131, 131, 131, 0.5) 0px 0px 10px 3px;
   }
 
   body.scroll #navigation .logo .light {
@@ -728,9 +752,9 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #ffffff;
+    background-color: #fffffffb;
     height: 0%;
-    transition: height .5s;
+    transition: height .75s;
   }
 
   #navigation .container {
@@ -767,6 +791,7 @@
   }
 
   #navigation #navbar-menu ul li a {
+    font-family: "Merriweather-Sans";
     text-decoration: none;
     font-weight: 500;
     /* 14px - 18px */
@@ -776,7 +801,7 @@
     position: relative;
     z-index: 1;
     color: #fff;
-    transition: color .25s;
+    transition: color 0.75s;
   }
 
   #navigation #navbar-menu ul li a:before {
@@ -901,9 +926,10 @@
     flex-direction: column;
     position: relative;
     z-index: 1;
-    min-height: 18vh;
-    padding-top: 5.75rem;
-    padding-bottom: 1rem;
+    min-height: 15vh;
+    padding-top: 6.75rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #62626214;
   }
 
   #int-hero:before {
@@ -940,7 +966,7 @@
 
   #int-hero h1 {
     color: #fff;
-    font-size: 1.75rem;
+    font-size: 2.25rem;
     text-align: center;
     margin: 0 auto;
     position: relative;
@@ -976,7 +1002,7 @@
     min-height: 13.75rem;
     height: auto;
     padding-top: 10.25rem;
-    padding-block-end: 1rem;
+    padding-block-end: 2rem;
     background-attachment: fixed;
     font-size: inherit;
   }
@@ -994,7 +1020,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-top: 1px solid #303030;
+    border-top: 1px solid #62626214;
   }
 
   #footer .left-section {
@@ -1258,6 +1284,6 @@
 /* Dark Mode */
 @media only screen and (min-width: 0em) {
   body.dark-mode #footer {
-    background: #161618;
+    background: #131313;
   }
 }

@@ -48,12 +48,13 @@
     left: 0;
     top: 0;
     border: clamp(0.15em, 1vw, 0.15em) solid #161618;
+    box-shadow: rgba(0, 0, 0, 1) 2px 2px 6px 0px;
   }
   #sbs .cs-picture2 {
     width: 25.875em;
     height: 25em;
     background-color: #fff;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 40px;
+    box-shadow: rgba(0, 0, 0, 1) 2px 2px 6px 0px;
     background-color: #161618;
     /* 6px - 12px */
     border: clamp(0.20em, 1vw, 0.20em) solid #161618;
@@ -153,6 +154,7 @@
   }
   #sbs .button-solid {
     margin-top: 2rem;
+    box-shadow: rgba(0, 0, 0) 1px 1px 1px 0px;
   }
 
 /* Desktop - 1024px */
@@ -253,12 +255,13 @@
     top: 0;
     background-color: #161618;
     border: clamp(0.15em, 1vw, 0.15em) solid #161618;
+    box-shadow: rgba(0, 0, 0, 1) 2px 2px 6px 0px;
   }
   #sbs-r .cs-picture2 {
     width: 25.875em;
     height: 25em;
     background-color: #161618;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 40px;
+    box-shadow: rgba(0, 0, 0, 1) -2px 2px 6px 0px;
     /* 6px - 12px */
     border: clamp(0.2em, 1vw, 0.2em) solid #161618;
     left: 0;
@@ -449,9 +452,9 @@
     width: 100%;
     max-width: 33.875rem;
     margin: 0 auto 1.5rem;
-    box-shadow: 5px 5px 20px 5px rgba(22, 22, 24, 0.1);
+    box-shadow: rgba(0, 0, 0) 2px 2px 2px 0px;
     border-radius: 0.5em;
-    background: #fffefe;
+    background: #F9F8F8;
     position: relative;
     justify-content: space-between;
     overflow: hidden;
