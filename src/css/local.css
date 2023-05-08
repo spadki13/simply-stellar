@@ -437,7 +437,7 @@
     line-height: 1.2em;
     text-align: center;
     max-width: 43.75rem;
-    margin: 1.5rem auto 2rem;
+    margin: 2rem auto 2rem;
     color: var(--headerColor);
     position: relative;
   }
@@ -461,6 +461,9 @@
     flex-wrap: wrap;
     align-items: center;
     box-sizing: border-box;
+  }
+  #collaborate .cs-item:focus-within {
+  outline: 1px solid rgba(255, 255, 255, 0.102);
   }
   #collaborate .cs-item:last-of-type {
     margin-bottom: 0;
