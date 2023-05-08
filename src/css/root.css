@@ -26,31 +26,6 @@
     --bodyFontSize: clamp(.9rem, 3vw, 1rem);
   }
 
-  /* roboto-regular - latin */
-  @font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    src: local(''), url('/assets/fonts/roboto-v29-latin-regular.woff2') format('woff2'),
-      /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url('/assets/fonts/roboto-v29-latin-regular.woff') format('woff');
-
-    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-
-  /* roboto-700 - latin */
-  @font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    src: local(''), url('/assets/fonts/roboto-v29-latin-700.woff2') format('woff2'),
-      /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url('/assets/fonts/roboto-v29-latin-700.woff') format('woff');
-
-    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-
-  /* roboto-900 - latin */
   @font-face {
     font-family: 'Merriweather';
     font-style: normal;
@@ -67,10 +42,8 @@
     src: local(''), url('/assets/fonts/MerriweatherLight.woff') format('woff'),
       /* Chrome 26+, Opera 23+, Firefox 39+ */
       url('/assets/fonts/MerriweatherLight.woff') format('woff');
-
-    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
-
+  
   @font-face {
     font-family: 'Merriweather-Sans';
     font-style: normal;
@@ -78,8 +51,6 @@
     src: local(''), url('/assets/fonts/MerriweatherSans-Regular.woff') format('woff'),
       /* Chrome 26+, Opera 23+, Firefox 39+ */
       url('/assets/fonts/MerriweatherSans-Regular.woff') format('woff');
-
-    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
 
   @font-face {
@@ -89,8 +60,6 @@
     src: local(''), url('/assets/fonts/MerriweatherSansLight.woff') format('woff'),
       /* Chrome 26+, Opera 23+, Firefox 39+ */
       url('/assets/fonts/MerriweatherSansLight.woff') format('woff');
-
-    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
 
   @font-face {
@@ -100,38 +69,6 @@
     src: local(''), url('/assets/fonts/Inter-Regular.woff') format('woff'),
       /* Chrome 26+, Opera 23+, Firefox 39+ */
       url('/assets/fonts/Inter-Regular.woff') format('woff');
-
-    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  @font-face {
-    font-family: 'Eurostile';
-    font-style: normal;
-    font-weight: 500;
-    src: local(''), url('/assets/fonts/Eurostile.ttf') format('ttf'),
-      /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url('/assets/fonts/Eurostile.ttf') format('ttf');
-
-    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  @font-face {
-    font-family: 'Sintony';
-    font-style: normal;
-    font-weight: 500;
-    src: local(''), url('/assets/fonts/Sintony.ttf') format('ttf'),
-      /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url('/assets/fonts/Sintony.ttf') format('ttf');
-
-    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  @font-face {
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 500;
-    src: local(''), url('/assets/fonts/Lato-Regular.ttf') format('ttf'),
-      /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url('/assets/fonts/Lato-Regular.ttf') format('ttf');
-
-    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
 
   body,
@@ -153,7 +90,7 @@
   }
 
   body {
-    transition: background-color 0.3s;
+    transition: background-color .3s;
   }
 
   .container {
@@ -203,7 +140,7 @@
 
   #collaborate a:hover {
     text-decoration: underline;
-    transition: .5s;
+    transition: .3s;
     text-decoration-color: var(--primary);
   }
   .button-solid {
@@ -243,7 +180,6 @@
     text-align: center;
     padding: 0 1.875rem;
     position: relative;
-    border-radius: .5em;
     border-radius: .2em 1em .2em 1em;
     z-index: 1;
     background-color: var(--primaryButton);
@@ -307,7 +243,7 @@
     z-index: 1;
     background-color: var(--primaryButton);
     color: #000;
-    transition: color .5s;
+    transition: color .3s;
     transition-delay: .1s;
   }
 
@@ -559,7 +495,7 @@
     opacity: 1;
     top: -6px;
     left: 0;
-    transition: width .3s, left .3s, top .3s, transform .5s;
+    transition: width .3s, left .3s, top .3s, transform .3s;
   }
 
   #navigation .hamburger-menu span:after {
@@ -621,7 +557,7 @@
     transform-style: preserve-3d;
     opacity: 0;
     transform: translateY(-0.4375rem) rotateX(90deg);
-    transition: opacity .5s, transform .5s;
+    transition: opacity .3s, transform .3s;
   }
 
   #navigation #navbar-menu ul li:nth-of-type(1) {
@@ -762,7 +698,7 @@
     width: 100%;
     background-color: #fffffffb;
     height: 0%;
-    transition: height .25s;
+    transition: height .3s;
 
   }
 
@@ -1276,7 +1212,7 @@
     opacity: .9;
     bottom: -0.1875rem;
     left: 0;
-    transition: width .5s;
+    transition: width .3s;
   }
 
   #footer .right-section .lists ul li a:hover:before {
