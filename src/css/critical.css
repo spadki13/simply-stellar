@@ -15,6 +15,8 @@
     z-index: 1;
     /* prevents overflow from the lines extending past the screen width */
     overflow: hidden;
+    background-color: var(--dark);
+    background-image: linear-gradient(to right, #131313, #161616)
   }
   #hero .cs-picture {
     /* Background Image */
@@ -409,7 +411,8 @@
 /* Desktop Parallax Effect - 1300px */
 @media only screen and (min-width: 81.25em) {
   #hero {
-    background: url("/images/background11-1920w.webp");
+    background-color: var(--dark);
+    background-image: linear-gradient(to right, #131313, #161616);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -421,7 +424,7 @@
 /* Dark Mode */
 @media only screen and (min-width: 0em) {
   body.dark-mode #hero .cs-background:before {
-    opacity: .8;
+    opacity: 1;
   }
 }
 /*-- -------------------------- -->
@@ -440,10 +443,7 @@
     max-width: 82.5em;
     padding: 2.125em 2em;
     border-top: 0.25em solid var(--primary);
-    border-bottom: 1px solid var(--mainDark);;
-    border-left: 1px solid var(--mainDark);;
-    border-right: 1px solid var(--mainDark);;
-    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px 3px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px 1px;
     margin-bottom: 2.125em;
   }
   .services .card {
@@ -475,7 +475,7 @@
   .services .card h2 {
     font-family: "Merriweather-Sans-Light";
     text-align: center;
-    font-size: 1em;
+    font-size: 1.1em;
     line-height: 1.3em;
     font-weight: 500;
     color: #1a1a1a;
@@ -523,6 +523,7 @@
   }
   body.dark-mode #services h2 {
     color: #fff;
+    font-size: 1.1em;
     font-weight: 500;
   }
 }

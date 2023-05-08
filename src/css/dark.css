@@ -4,13 +4,15 @@
 /* Mobile */
 @media only screen and (min-width: 0em) {
   :root {
-    --black: #0f0f0f;
+    --black: #0e0e0e;
     --dark: #131313 ;
-    --medium: #171717;
+    --medium: #191919;
     --accent: #d0d0d1;
+    --accentUnderline: #ffffff ;
   }
   body.dark-mode {
     background-color: var(--dark);
+    background-image: linear-gradient(to right, #131313, #171717)
   }
   body.dark-mode p,
   body.dark-mode li,
@@ -70,14 +72,14 @@
   }
   #dark-mode-toggle .moon {
     z-index: 2;
-    transition: transform .5s, opacity .5s, fill 2s;
+    transition: transform .3s, opacity .5s, fill .3s;
     fill: #000;
   }
   #dark-mode-toggle .sun {
     z-index: 1;
-    transform: translate(-50%, 100%);
+    transform: translate(-50%, 150%);
     opacity: 0;
-    transition: transform .5s, opacity .5s;
+    transition: transform .3s, opacity .5s, fill .3s;
   }
 }
 /* Desktop */

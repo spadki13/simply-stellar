@@ -107,7 +107,7 @@
   }
   #sbs .cs-flex-group {
     /* 16px - 32px */
-    border: clamp(1px, 1vw, 1px) solid #7777775e;
+    border: clamp(1px, 1vw, 1px) solid #5151515e;
     padding: clamp(1.75rem, 3vw, 1.75rem);
     background-color: #f8f8f8;
     border-radius: .5em;
