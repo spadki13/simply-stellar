@@ -16,7 +16,7 @@
     /* prevents overflow from the lines extending past the screen width */
     overflow: hidden;
     background-color: var(--dark);
-    background-image: linear-gradient(to right, #131313, #161616)
+    background-image: linear-gradient(to right, #111111, #161616)
   }
   #hero .cs-picture {
     /* Background Image */
@@ -412,7 +412,7 @@
 @media only screen and (min-width: 81.25em) {
   #hero {
     background-color: var(--dark);
-    background-image: linear-gradient(to right, #131313, #161616);
+    background-image: linear-gradient(to right, #111111, #161616);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

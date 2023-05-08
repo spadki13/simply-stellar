@@ -12,7 +12,7 @@
   }
   body.dark-mode {
     background-color: var(--dark);
-    background-image: linear-gradient(to right, #131313, #171717)
+    background-image: linear-gradient(to right, #111111, #171717)
   }
   body.dark-mode p,
   body.dark-mode li,
