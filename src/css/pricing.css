@@ -4,7 +4,7 @@
 /* Mobile - 360px */
 @media only screen and (min-width: 0em) {
     #pricing {
-      padding: clamp(2em, 1.5vw, 3em) 2rem;
+      padding: clamp(1em, 1.5vw, 2em) 2rem;
     }
     #pricing .cs-container {
       width: 100%;
@@ -14,9 +14,9 @@
       justify-content: center;
       align-items: center;
       overflow: hidden;
-      row-gap: 1rem;
-      flex-direction: column-reverse;
-      padding-bottom: 2rem;
+      row-gap: 4rem;
+      flex-direction: column;
+      padding-bottom: 1rem;
     }
 
     #pricing .cs-left {
@@ -76,7 +76,7 @@
       line-height: 1.3em;
       text-align: left;
       max-width: 50rem;
-      margin: 0 auto .5rem;
+      margin: 0.5em auto .5em;
       color: var(--headerColor);
       position: relative;
     }
@@ -91,13 +91,13 @@
       color: var(--bodyTextColor);
     }
     #pricing .cs-text:last-of-type {
-      margin-bottom: 2rem;
+      margin-bottom: 0rem;
     }
     #pricing .cs-flex-group {
       /* 16px - 32px */
       padding: clamp(1rem, 3vw, 2rem);
-      background-color: #eeeeee;
-      border-radius: 1rem;
+      background-color: #e8e7e7;
+      border-radius: .5rem;
       position: relative;
     }
     #pricing .cs-flex-p {
@@ -169,137 +169,22 @@
       opacity: .2;
     }
   }
-  /*-- -------------------------- -->
-  <---    Final Call To Action    -->
-  <--- -------------------------- -*/
-  /* Mobile */
-  @media only screen and (min-width: 0em) {
-    #cta {
-      position: relative;
-      padding: 3.125rem 0;
-    }
-    #cta:before {
-      content: '';
-      position: absolute;
-      display: block;
-      height: 100%;
-      width: 100%;
-      background: #000;
-      opacity: .7;
-      top: 0;
-      left: 0;
-      z-index: -1;
-    }
-    #cta .container {
-      text-align: center;
-    }
-    #cta picture {
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 100%;
-      width: 100%;
-      z-index: -2;
-    }
-    #cta picture img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 100%;
-      width: 100%;
-      object-fit: cover;
-    }
-    #cta .title {
-      font-weight: 900;
-      font-size: min(9vw, 3rem);
-      line-height: 1.20833333;
-      color: #fff;
-      position: relative;
-      margin-bottom: 2.25rem;
-      text-align: center;
-    }
-    #cta p {
-      color: #fff;
-      text-align: center;
-      opacity: 1;
-      margin: auto;
-      margin-bottom: 2.25rem;
-      width: 96%;
-      max-width: 37.375rem;
-    }
-  }
-  /* Small Desktop */
-  @media only screen and (min-width: 64em) {
-    #cta {
-      padding: 10.5rem 0;
-    }
-  }
-  /* Large Desktop */
-  @media only screen and (min-width: 1300px) {
-    #cta {
-      position: relative;
-      margin-top: 6.25rem;
-    }
-    #cta:before {
-      display: none;
-    }
-    #cta:after {
-      content: '';
-      position: absolute;
-      display: block;
-      height: 69.25rem;
-      width: 125rem;
-      background: url("/assets/svgs/cta-squares.svg");
-      background-size: contain;
-      background-position: center;
-      background-repeat: no-repeat;
-      opacity: 1;
-      bottom: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      z-index: -3;
-    }
-    #cta .container {
-      width: 90.0625%;
-      margin: auto;
-    }
-    #cta picture {
-      width: 90.0625%;
-      left: 50%;
-      transform: translateX(-50%);
-    }
-    #cta picture:before {
-      content: '';
-      position: absolute;
-      display: block;
-      height: 100%;
-      width: 100%;
-      background: #000;
-      opacity: .7;
-      top: 0;
-      left: 0;
-      z-index: 1;
-    }
-  }
-  /* Dark Mode */
-  @media only screen and (min-width: 0em) {
-    body.dark-mode #cta:after {
-      display: none;
-    }
-  }
+
   
   /* Mobile - 360px */
 @media only screen and (min-width: 0em) {
   #plans {
     /* Centers the button */
     text-align: center;
-    padding: var(--sectionPadding);
+    padding: var(--pricingPadding);
+    padding-bottom: 2em;
   }
   #plans .cs-container {
     width: 90%;
     max-width: 69rem;
-    margin: auto;
-    padding-bottom: 0em;
+    margin: 0 auto 2em;
+    border-bottom: 1px solid var(--headerLight);
+    padding-bottom: 4em;
   }
   
   #plans .cs-left {
@@ -334,11 +219,11 @@
   #plans .cs-card-group {
     display: inline-block;
     padding: 0;
-    margin: 0 auto clamp(3rem, 5vw, 2rem);
+    margin: 0 auto clamp(0rem, 5vw, 0rem);
     gap: 4rem;
   }
   #plans .cs-item {
-    border: clamp(1px, 1vw, 1px) solid #b6b6b6;
+    border: clamp(1px, 1vw, 1px) solid #000000;
     text-align: center;
     list-style: none;
     width: 95%;
@@ -348,30 +233,24 @@
     border-radius: 0.5em;
     background: #F9F8F8;
     position: relative;
-    justify-content: space-between;
     overflow: hidden;
-    flex-wrap: wrap;
-    align-items: center;
     box-sizing: border-box;
     padding-top: 1.5em;
     padding-right: .75em;
     padding-left: .75em;
-    padding-bottom: 3.5em;
+    padding-bottom: 1.5em;
   }
   #plans .cs-item:hover {
-    background-color: var(--topperLight);
+    background-color: var(--itemHover);
+    border: clamp(1px, 1vw, 1px) solid var(--bodyTextColor);
+    
     transition: all 0.3s ease-in-out;
   }
 
   #plans .cs-item:last-of-type {
     margin-bottom: 0;
   }
-  #plans .cs-item-img {
-    width: 5rem;
-    height: 5rem;
-    position: absolute;
-    top: -2.5rem;
-  }
+
   #plans .cs-item-p {
     font-size: .9rem;
     line-height: 1.5em;
@@ -386,11 +265,10 @@
   #plans .cs-text {
     font-size: var(--bodyFontSize);
     line-height: 1.5em;
+    padding: 0rem clamp(2rem, 3.2vw, 2rem) 0;
     text-align: left;
-    width: 80%;
+    width: 100%;
     max-width: 46.875rem;
-    margin: 0 auto;
-    margin-bottom: 0rem;
     color: var(--bodyTextColor);
   }
 }
@@ -409,7 +287,7 @@
     padding-top: 1.5em;
     padding-right: .75em;
     padding-left: .75em;
-    padding-bottom: 3.5em;
+    padding-bottom: 2.5em;
   }
 }
 /* Dark Mode */
@@ -421,14 +299,24 @@
     color: var(--bodyTextColorWhite);
   }
   body.dark-mode #plans .cs-topperone {
-    color: var(--topperLight);
+    color: var(--primary);
+    background-image: linear-gradient(90deg, #e49b2e, #ffffff);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    background-color: #ffffff;
+  }
   }
   body.dark-mode #plans .cs-item {
     background: var(--medium);
     border: clamp(1px, 1vw, 1px) solid var(--headerLight)
   }
   body.dark-mode #plans .cs-item:hover {
-    background: var(--light);
+    background: var(--dark);
+    border: clamp(1px, 1vw, 1px) solid var(--primary);
     transition: 0.3s;
   }
-}
+

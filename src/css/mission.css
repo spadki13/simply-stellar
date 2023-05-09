@@ -90,7 +90,7 @@
     line-height: 1.2em;
     text-align: left;
     max-width: 50rem;
-    margin: 0 auto .5rem;
+    margin: .5em auto .5em;
     color: var(--headerColor);
     position: relative;
   }
@@ -100,7 +100,7 @@
     text-align: left;
     width: 100%;
     max-width: 46.875rem;
-    margin: 0 auto;
+    margin: 0 auto 1.5em;
     margin-bottom: 1.5rem;
     color: var(--bodyTextColor);
   }
