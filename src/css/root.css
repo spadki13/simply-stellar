@@ -8,12 +8,13 @@
     --primaryButton: #ffb648;
     --primarySVG: #f4a42d;
     --topperLight: #fabf67;
+    --itemHover: #ffe3ba;
     --hoverLink: #2d2d2d61;
     --primaryShade: #faf9f5;
     --primaryDark: #bd7e21;
     --bodyTextColor: #000000;
     --bodyTextColorWhite: #f2f5f8;
-    --mainDark: #161618;
+    --mainDark: #161616;
     --headerColor: #1a1a1a;
     --headerLight: #7878781d;
     --topperOne: #0C2340;
@@ -345,9 +346,14 @@
   .float-on-hover:active {
     -webkit-transform: translateY(-8px);
     transform: translateY(-8px);
-    
   }
-
+  #collaborate .cs-item:hover {
+    background: var(--itemHover);
+    transition: 0.3s;
+  }
+  #collaborate a:hover {
+    text-decoration: none;
+  }
   .button-hero {
     display: flex;
     vertical-align: middle;
@@ -830,6 +836,11 @@
   body.dark-mode #navigation #navbar-menu ul li a.active {
     color: var(--topperLight);
   }
+
+  body.dark-mode #collaborate .cs-item:hover {
+    background: var(--hoverLink);
+    transition: 0.3s;
+  }
 }
 
 /* Dark Mode Desktop */
@@ -856,6 +867,10 @@
 
   body.dark-mode #navigation #navbar-menu ul li a.active {
     color: var(--primary);
+  }
+  body.dark-mode #collaborate .cs-item:hover {
+    background: var(--hoverLink);
+    transition: 0.3s;
   }
 }
 

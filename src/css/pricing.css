@@ -288,3 +288,143 @@
     }
   }
   
+  /* Mobile - 360px */
+@media only screen and (min-width: 0em) {
+  #plans {
+    /* Centers the button */
+    text-align: center;
+    padding: var(--sectionPadding);
+  }
+  #plans .cs-container {
+    width: 100%;
+    max-width: 69rem;
+    margin: auto;
+    padding-bottom: 0em;
+  }
+  
+  #plans .cs-left {
+    margin: auto;
+    max-width: 33.875rem;
+  }
+  #plans .cs-topperone {
+    font-size: var(--topperFontLarge);
+    font-family: "Merriweather-Sans";
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    color: var(--headerColor);
+    display: block;
+    opacity: 0.9;
+    text-decoration: none;
+  }
+  #plans .cs-topperone::after {
+    text-decoration: none;
+  }
+  #plans .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 500;
+    line-height: 1.2em;
+    text-align: center;
+    max-width: 43.75rem;
+    margin: 2rem auto 2rem;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #plans .cs-card-group {
+    display: inline-block;
+    padding: 0;
+    margin: 0 auto clamp(3rem, 5vw, 2rem);
+    gap: 4rem;
+  }
+  #plans .cs-item {
+    border: clamp(1px, 1vw, 1px) solid #b6b6b6;
+    text-align: center;
+    list-style: none;
+    width: 100%;
+    max-width: 33.875rem;
+    margin: 0 auto 3.5rem;
+    box-shadow: rgba(0, 0, 0) 1px 1px 2px 0px;
+    border-radius: 0.5em;
+    background: #F9F8F8;
+    position: relative;
+    justify-content: space-between;
+    overflow: hidden;
+    flex-wrap: wrap;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  #plans .cs-item:hover {
+    background-color: var(--topperLight);
+    transition: all 0.3s ease-in-out;
+  }
+
+  #plans .cs-item:last-of-type {
+    margin-bottom: 0;
+  }
+  #plans .cs-item-img {
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    top: -2.5rem;
+  }
+  #plans .cs-item-p {
+    font-size: .9rem;
+    line-height: 1.5em;
+    color: var(--bodyTextColor);
+    padding: 1rem clamp(2rem, 3.2vw, 2rem) 0;
+    padding-bottom: clamp(1rem, 5.4vw, 1rem);
+    text-decoration: none;
+  }
+  #plans .cs-item-p::after {
+    text-decoration: none;
+  }
+  #plans .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: left;
+    width: 80%;
+    max-width: 46.875rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    color: var(--bodyTextColor);
+  }
+}
+
+@media only screen and (min-width: 48em) {
+  #plans .cs-card-group {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3rem;
+  }
+  #plans .cs-item {
+    /* reset margin so it won't interfere with flexbox */
+    margin: 0;
+    border: clamp(1px, 1vw, 1px) solid var(--hoverLink);
+    padding-top: 1em;
+    padding-right: .75em;
+    padding-left: .75em;
+    padding-bottom: 1.5em;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0em) {
+  body.dark-mode #plans .cs-title,
+  body.dark-mode #plans .cs-item-p,
+  body.dark-mode #plans .cs-text
+   {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #plans .cs-topperone {
+    color: var(--topperLight);
+  }
+  body.dark-mode #plans .cs-item {
+    background: var(--medium);
+    border: clamp(1px, 1vw, 1px) solid var(--headerLight)
+  }
+  body.dark-mode #plans .cs-item:hover {
+    background: var(--hoverLink);
+    transition: 0.3s;
+  }
+}
