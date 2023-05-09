@@ -296,7 +296,7 @@
     padding: var(--sectionPadding);
   }
   #plans .cs-container {
-    width: 100%;
+    width: 90%;
     max-width: 69rem;
     margin: auto;
     padding-bottom: 0em;
@@ -310,7 +310,7 @@
     font-size: var(--topperFontLarge);
     font-family: "Merriweather-Sans";
     text-transform: uppercase;
-    text-align: center;
+    text-align: left;
     letter-spacing: 0.02em;
     font-weight: 500;
     color: var(--headerColor);
@@ -341,9 +341,9 @@
     border: clamp(1px, 1vw, 1px) solid #b6b6b6;
     text-align: center;
     list-style: none;
-    width: 100%;
+    width: 95%;
     max-width: 33.875rem;
-    margin: 0 auto 3.5rem;
+    margin: 0 auto 3rem;
     box-shadow: rgba(0, 0, 0) 1px 1px 2px 0px;
     border-radius: 0.5em;
     background: #F9F8F8;
@@ -353,6 +353,10 @@
     flex-wrap: wrap;
     align-items: center;
     box-sizing: border-box;
+    padding-top: 1.5em;
+    padding-right: .75em;
+    padding-left: .75em;
+    padding-bottom: 3.5em;
   }
   #plans .cs-item:hover {
     background-color: var(--topperLight);
@@ -386,7 +390,7 @@
     width: 80%;
     max-width: 46.875rem;
     margin: 0 auto;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
     color: var(--bodyTextColor);
   }
 }
@@ -402,10 +406,10 @@
     /* reset margin so it won't interfere with flexbox */
     margin: 0;
     border: clamp(1px, 1vw, 1px) solid var(--hoverLink);
-    padding-top: 1em;
+    padding-top: 1.5em;
     padding-right: .75em;
     padding-left: .75em;
-    padding-bottom: 1.5em;
+    padding-bottom: 3.5em;
   }
 }
 /* Dark Mode */
@@ -424,7 +428,7 @@
     border: clamp(1px, 1vw, 1px) solid var(--headerLight)
   }
   body.dark-mode #plans .cs-item:hover {
-    background: var(--hoverLink);
+    background: var(--light);
     transition: 0.3s;
   }
 }
