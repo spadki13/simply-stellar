@@ -440,7 +440,8 @@
     background-color: #ffffff;
     width: 100%;
     height: 100%;
-    box-shadow: rgba(0, 0, 0, 0.20) 0px 0px 30px 10px;
+    box-shadow: rgba(131, 131, 131, 0.5) 0px 0px 10px 1px;
+    transition: 0.2s;
   }
 
   #navigation .container {
@@ -644,7 +645,7 @@
 @media only screen and (min-width: 64em) {
   ::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 0.2em rgba(0, 0, 0, 0.5);
-    background-color: #fff;
+    background-color: #b36565;
   }
 
   ::-webkit-scrollbar-track-piece {
@@ -664,6 +665,7 @@
   body.scroll #navigation .background-color-div {
     height: 100%;
     box-shadow: rgba(131, 131, 131, 0.5) 0px 0px 10px 3px;
+    transition: 0.2s linear;
   }
 
   body.scroll #navigation .logo .light {
@@ -679,12 +681,13 @@
   }
 
   body.scroll #dark-mode-toggle svg path {
-    fill: #000;
+    fill: #1a1a1a;
   }
 
   body.dark-mode #navigation .background-color-div {
     height: 100%;
     box-shadow: rgba(0, 0, 0, 0.75) 0px 0px 25px 2px;
+    transition: 0.2s linear;
   }
 
   #navigation {
@@ -695,7 +698,7 @@
     left: 0;
     z-index: 200000;
     padding: 0;
-    display: flex;
+    display: inline-flex;
     align-items: center;
   }
 
@@ -704,9 +707,9 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #fffffffb;
+    background-color: #f9f9f9;
     height: 0%;
-    transition: height .3s;
+    transition: .2s linear;
 
   }
 
@@ -799,11 +802,13 @@
 /* Dark Mode Mobile */
 @media only screen and (max-width: 1023px) {
   body.dark-mode #navigation .background-color-div {
-    background-color: var(--dark);
+    background-color: var(--black);
+    box-shadow: rgba(0, 0, 0, 0.75) 0px 0px 25px 2px;
+    transition: 0.2s linear;
   }
 
   body.dark-mode #navigation .hamburger-menu.clicked span {
-    background-color: var(--dark);
+    background-color: var(--black);
   }
 
   body.dark-mode #navigation .hamburger-menu span {
@@ -849,6 +854,7 @@
 @media only screen and (min-width: 1024px) {
   body.dark-mode #navigation .background-color-div {
     background-color: var(--black);
+    transition: .2s linear;
   }
 
   body.dark-mode #navigation .logo .light {

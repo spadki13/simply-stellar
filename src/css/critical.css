@@ -29,18 +29,49 @@
     left: 0;
     z-index: -2;
   }
+  #hero .sun {
+    position: absolute;
+    top: 15%;
+    width: 150%;
+    animation: scale 5s linear infinite;
+    opacity: 1;
+    transition: opacity 0.5s linear;
+  }
+  #shine {
+    animation: twinkle 4s linear infinite;
+  }
   #hero .star {
     position: absolute;
     width: 10px;
     height: 10px;
     animation: twinkle 2s ease-in-out infinite;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
   }
+  @keyframes scale {
+    0% {
+      transform: scale(.9);
+    }
+    25% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+  75% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(.9);
+    }
+  }
+
   @keyframes twinkle {
     0% {
       opacity: 1;
     }
     50% {
-      opacity: 0.5;
+      opacity: 0.7;
     }
     100% {
       opacity: 1;
@@ -224,10 +255,11 @@
     padding: clamp(0em, 3vw, 0em) 4em;
     margin: auto;
     position: relative;
+    margin-bottom: 6em;
   }
   #hero svg {
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
     margin-top: .25em;
   }
   #hero .cs-container:before {
@@ -428,7 +460,7 @@
     content: '';
     width: 1px;
     height: 100%;
-    background: -moz-linear-gradient(top, rgba(250, 251, 252, 0) 0%, rgba(250, 251, 252, 0.5) 100%);
+    background: -moz-linear-gradient(top, rgba(250, 251, 252, 0) 0%, rgb(255, 212, 40) 100%);
     /* FF3.6-15 */
     background: -webkit-linear-gradient(top, rgba(250, 251, 252, 0) 0%, rgba(250, 251, 252, 0.5) 100%);
     /* Chrome10-25,Safari5.1-6 */
@@ -459,7 +491,18 @@
 @media only screen and (min-width: 0em) {
   body.dark-mode #hero .cs-background:before {
     opacity: 1;
+    
   }
+  body.dark-mode  #hero .star {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  body.dark-mode #hero .sun {
+  opacity: 0;
+  transition: opacity 0.2s linear;
+}
+
 }
 /*-- -------------------------- -->
 <---          Services          -->
@@ -469,7 +512,7 @@
   .services {
     border-radius: 0.5em;
     margin: auto;
-    margin-top: -10.4375em;
+    margin-top: -16.4375em;
     position: relative;
     z-index: 100;
     background: #fff;
@@ -532,7 +575,7 @@
     gap: 3rem;
     align-items: flex-start;
     width: 75%;
-    margin-top: 1em;
+    margin-top: -6em;
   }
   .services .card {
     margin: 0;
