@@ -35,10 +35,12 @@
     width: 150%;
     animation: scale 5s linear infinite;
     opacity: 1;
+    transition-delay: .5s;
     transition: opacity 0.5s linear;
   }
   #shine {
     animation: twinkle 4s linear infinite;
+    transition-delay: .5s;
   }
   #hero .star {
     position: absolute;
@@ -500,6 +502,7 @@
 
   body.dark-mode #hero .sun {
   opacity: 0;
+  transition-delay: .5s;
   transition: opacity 0.2s linear;
 }
 
@@ -523,6 +526,7 @@
     box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px 1px;
     margin-bottom: 3.125em;
   }
+  
   .services .card {
     display: block;
     width: 100%;

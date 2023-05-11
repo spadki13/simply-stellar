@@ -551,7 +551,7 @@
     top: 3.7rem;
     padding-top: 0;
     height: 0;
-    transition: height 0.3s, padding-top 0.3s, top 0.3s;
+    transition: height 5s, padding-top 0.3s, top 0.3s;
   }
 
   #navigation #navbar-menu ul {
@@ -645,7 +645,7 @@
 @media only screen and (min-width: 64em) {
   ::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 0.2em rgba(0, 0, 0, 0.5);
-    background-color: #b36565;
+    background-color: #F5F5F5;
   }
 
   ::-webkit-scrollbar-track-piece {
@@ -665,7 +665,7 @@
   body.scroll #navigation .background-color-div {
     height: 100%;
     box-shadow: rgba(131, 131, 131, 0.5) 0px 0px 10px 3px;
-    transition: 0.2s linear;
+    transition: .2s linear;
   }
 
   body.scroll #navigation .logo .light {
@@ -707,7 +707,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #f9f9f9;
+    background-color: #fff;
     height: 0%;
     transition: .2s linear;
 
@@ -804,7 +804,7 @@
   body.dark-mode #navigation .background-color-div {
     background-color: var(--black);
     box-shadow: rgba(0, 0, 0, 0.75) 0px 0px 25px 2px;
-    transition: 0.2s linear;
+    transition: 0.3s linear;
   }
 
   body.dark-mode #navigation .hamburger-menu.clicked span {
