@@ -140,6 +140,11 @@
     cursor: pointer;
   }
 
+  @keyframes fadeup {
+    from {top:50px;opacity: 0;}
+    to {top:0px;opacity:1;}
+    }
+    
   #collaborate a:hover {
     text-decoration: underline;
     transition: .3s;
@@ -877,7 +882,7 @@
     color: var(--primary);
   }
   body.dark-mode #collaborate .cs-item:hover {
-    background: var(--hoverLink);
+    background: var(--black);
     transition: 0.3s;
   }
 }

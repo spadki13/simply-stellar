@@ -121,6 +121,108 @@
       border: 1px solid #16161827;
     }
   }
+    
+  #pricing .inside-modal {
+    margin: auto;
+    padding: clamp(1em, 1.5vw, 1em) 1rem;
+    max-width: 30.875rem;
+  }
+
+  #pricing .modal-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    row-gap: 1rem;
+    flex-direction: column;
+    }
+  
+    #pricing .modal-text {
+      font-size: var(--bodyFontSize);
+      line-height: 1.5em;
+      text-align: left;
+      width: 100%;
+      max-width: 46.875rem;
+      margin: 0 auto;
+      color: var(--bodyTextColorWhite);
+    }
+  
+    #pricing .modal-title {
+      font-size: var(--faqFontSize);
+      font-weight: 500;
+      line-height: 1.3em;
+      text-align: left;
+      max-width: 50rem;
+      margin: 0.5em auto .5em;
+      color: var(--bodyTextColorWhite);
+      position: relative;
+    }
+  
+    #pricing button {
+      font-family: "Merriweather-Sans";
+      text-transform: uppercase;
+      font-size: 1rem;
+      line-height: 2.5rem;
+      width: 9.25rem;
+      font-weight: 700;
+      color: var(--headerColor);
+      background-color: var(--primary);
+      display: inline-block;
+      position: relative;
+      z-index: 1;
+      border-radius: 0.25em;
+      border: 1px solid var(--dark);
+    }
+  
+    #pricing button:hover {
+      background-color: var(--primaryButton);
+    }
+   
+    #pricing dialog button {
+      font-size: 1rem;
+      line-height: clamp(2.5em, 5.5vw, 3em);
+      width: 9.25rem;
+      font-weight: 500;
+      color: var(--headerColor);
+      background-color: var(--primary);
+      display: inline-block;
+      position: relative;
+      margin-bottom: 0.5em;
+      z-index: 1;
+      border: none;
+      border-radius: 0.25em;
+    }
+  
+    #pricing dialog button:hover {
+      background-color: var(--primaryButton);
+    }
+  
+    #pricing dialog {
+      padding: clamp(1.5em, 1.5vw, 2em) 1.5rem;
+      margin: auto;
+      background-color: var(--light);
+      border: 1px solid var(--primary);
+      animation-name: fadeup;
+      animation-duration: 0.5s;
+    }
+  
+    dialog::backdrop {
+      background-color: #16161664;
+      background-image: linear-gradient(
+        135deg,
+        #0e0e0ebb,
+        #161616bb 40%,
+        #1c1c1cbb 70%
+      )
+    }
+  
+    dialog[open] {
+     border-radius: 0.5em;
+    }
+
   /* Desktop - 1024px */
   @media only screen and (min-width: 64em) {
     #pricing .cs-container {
@@ -137,6 +239,9 @@
       margin: 0;
     }
   }
+
+
+
   /* Dark Mode */
   @media only screen and (min-width: 0em) {
     body.dark-mode #pricing .cs-left:before,
