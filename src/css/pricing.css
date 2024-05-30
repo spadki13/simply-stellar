@@ -178,7 +178,7 @@
     }
   
     #pricing button:hover {
-      background-color: var(--primaryButton);
+      background-color: var(--primary);
     }
    
     #pricing dialog button {
@@ -197,7 +197,7 @@
     }
   
     #pricing dialog button:hover {
-      background-color: var(--primaryButton);
+      background-color: var(--primary);
     }
   
     #pricing dialog {

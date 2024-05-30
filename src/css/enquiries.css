@@ -119,7 +119,7 @@
     min-width: 9.375rem;
     text-transform: uppercase;
     padding: 1rem 1.5rem;
-    background-color: var(--primaryButton);
+    background-color: var(--primary);
     border: none;
     border-radius: 0.5em;
     display: inline-block;

@@ -3,14 +3,12 @@
   #hero {
     font-family: 'Merriweather-Light', 'Arial', sans-serif;
     text-align: center;
-    padding: 0 1rem;
     padding-bottom: 10.50rem;
     padding-top: 2.25rem;
     position: relative;
     z-index: 1;
     overflow: hidden;
-    background-color: var(--dark);
-    background-image: linear-gradient(to right, #111111, #161616)
+    background-color: var(--primaryDark);
   }
   #hero .cs-picture {
     width: 100%;
@@ -294,17 +292,10 @@
     text-align: center;
     letter-spacing: 0.25em;
     font-weight: 500;
-    color: var(--primary);
+    color: var(--primaryLight50);
     display: block;
     padding-bottom: 1.75rem;
-    background-image: linear-gradient(90deg, #ffce85, #ffb648);
-    background-size: 100%;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent;
-    background-color: #ffffff;
+
   }
   #hero .cs-title {
     /* 39px - 61px */
@@ -315,7 +306,7 @@
     width: 100%;
     /* 32px - 40px */
     margin: 0 auto clamp(1.2rem, 3vw, 1.3rem) 0;
-    color: var(--bodyTextColorWhite);
+    color: var(--primaryWhite);
     position: relative;
   }
   #hero .cs-subtitle {

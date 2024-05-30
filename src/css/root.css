@@ -4,20 +4,17 @@
 /* Mobile */
 @media only screen and (min-width: 0em) {
   :root {
-    --primary: #e49b2e;
-    --primaryButton: #ffb648;
-    --primarySVG: #f4a42d;
-    --topperLight: #fabf67;
+    --primary: #DBB64D;
+    --primaryLight50: #FFD86A;
+    --primaryWhite:#F1F3F9;
+    --primaryDark:#0C0C0A;
     --itemHover: #fddba8;
-    --hoverLink: #3c3b3b61;
-    --primaryShade: #faf9f5;
+    --primaryDark: #0C0C0A;
+    --primaryShade: #F1F3E9;
     --primaryDark: #bd7e21;
-    --bodyTextColor: #000000;
-    --bodyTextColorWhite: #e2e2e2;
-    --mainDark: #161616;
-    --headerColor: #1a1a1a;
-    --headerLight: #7272723d;
-    --topperOne: #0C2340;
+    --bodyTextColor: #0C0C0A;
+    --bodyTextColorWhite: #F1F3E9;
+    --mainDark: #0C0C0A;
     --topperFontSize: clamp(0.8rem, 1vw, 0.85rem);
     --topperFontLarge: clamp(1rem, 1vw, 1rem);
     --headerFontSize: clamp(1.3rem, 3vw, 1.4rem);
@@ -26,6 +23,15 @@
     --sectionPadding: clamp(4em, 7vw, 4.5em) 3rem;
     --pricingPadding: clamp(1em, 3vw, 2em) 3rem;
     --bodyFontSize: clamp(.95rem, 3vw, 1rem);
+  }
+
+  @font-face {
+    font-family: 'FoundersGrotesk';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''), url('/src/assets/fonts/FoundersGrotesk-Regular.otf') format('otf'),
+      /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('src/assets/fonts/FoundersGrotesk-Regular.otf') format('otf');
   }
 
   @font-face {
@@ -64,21 +70,14 @@
       url('/assets/fonts/MerriweatherSansLight.woff') format('woff');
   }
 
-  @font-face {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    src: local(''), url('/assets/fonts/Inter-Regular.woff') format('woff'),
-      /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url('/assets/fonts/Inter-Regular.woff') format('woff');
-  }
+
 
   body,
   html {
     margin: 0;
     padding: 0;
     font-size: 100%;
-    font-family: 'Merriweather-Sans-Light', 'Inter', sans-serif;
+    font-family: 'FoundersGrotesk', 'Merriweather-Sans-Light', 'Inter', sans-serif;
     color: var(--bodyTextColor);
     overflow-x: hidden;
   }
@@ -123,7 +122,7 @@
   p,
   li,
   a {
-    font-family: "Merriweather-Sans-Light";
+    font-family: "FoundersGrotesk", "Merriweather-Sans-Light";
     font-size: .95rem;
     line-height: 1.2em;
     margin: 0;
@@ -164,7 +163,7 @@
     padding: 0 1.875rem;
     position: relative;
     z-index: 1;
-    background-color: var(--primaryButton);
+    background-color: var(--primaryLight50);
     color: #000;
     transition: color .3s;
     transition-delay: .1s;
@@ -850,7 +849,7 @@
   }
 
   body.dark-mode #collaborate .cs-item:hover {
-    background: var(--hoverLink);
+    background: var(--primaryDark);
     transition: 0.3s;
   }
 }
@@ -1113,7 +1112,7 @@
     position: absolute;
     height: 0.1rem;
     width: 100%;
-    background: var(--hoverLink);
+    background: var(--primaryDark);
     opacity: 1;
     bottom: -1rem;
     left: 0;
@@ -1142,7 +1141,7 @@
   }
 
   #footer .credit a {
-    color: var(--hoverLink);
+    color: var(--primaryDark);
     text-decoration: none;
     font-size: 1rem;
   }
